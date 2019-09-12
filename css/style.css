@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color:#102227;
     background-image:-o-radial-gradient(left top,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%);
@@ -5,4 +10,67 @@ body{
     background-size:100vw 100vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw;
     background-position:0 0,100% 0,top 100vh left,top 200vh right,top 300vh left,top 400vh right,top 500vh left,top 600vh right,top 700vh left,top 800vh right,top 900vh left,top 1000vh right,top 1100vh left,top 1200vh right,top 1300vh left,top 1400vh right,top 1500vh left,top 1600vh right,top 1700vh left,top 1800vh right,top 1900vh left,top 2000vh right,top 2100vh left,top 2200vh right,top 2300vh left,top 2400vh right,top 2500vh left,top 2600vh right;
     background-repeat:no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+.content{
+    position: relative;
+    border: 1px solid white; 
+}
+
+.you{
+    position: absolute;
+    left: 0px;
+    background-color: #0088A0;
+    height: 280px;
+    width: 70%;
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}
+
+.you > h3{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(58deg);
+    transform-origin: 0 0; 
+    text-align: right;
+}
+
+.do{
+    position: absolute;
+    left:60px;
+    background-color: #F76906;
+    height: 280px;
+    width: 70%;    
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}
+
+.do > h3{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(58deg);
+    transform-origin: 0 0; 
+    text-align: right;
+}
+
+.mot{
+    position: absolute;
+    left: 120px;
+    background-color: #1CDE7E;
+    height: 280px;
+    width: 70%;    
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}
+.mot > h3{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(58deg);
+    text-align: right;
+    transform-origin: 0 0; 
+}
+
+#toggleCheckbox{
+    trans
+}
