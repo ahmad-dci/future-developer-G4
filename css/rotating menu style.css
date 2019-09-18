@@ -1,0 +1,203 @@
+.container{z-index: 1;
+
+  position: relative;
+    width: 100vw;
+    height: 100vh;
+  /* background-image: url("../assets/curve4.png");*/
+    background-size: 100%;
+   /* background-position-y: -95px;*/
+
+ background-image: linear-gradient(rgb(0, 0, 58), rgb(0, 20, 92),rgb(0, 79, 143),rgb(0, 79, 143)
+    ,rgb(0, 79, 143),rgb(0, 110, 141));
+}
+.bla{
+  position: absolute;
+  z-index:2;
+  width:10vw;
+  height:10vh;
+  top:10vh;
+  right: 42vw;
+  background-color: azure;
+}
+/*this is the first moving content container*/
+.move1{
+z-index: 10;
+    position: absolute;
+outline: thick ridge grey;
+outline-offset: 15px;
+    width: 15vw;
+    height: 45vh;
+    background-color: rgb(255, 230, 0);
+     animation-name: slideLeft;
+     animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+   animation-fill-mode: both;
+   animation-play-state: paused;
+  /* box-shadow: 0px 30px 30px rgb(0, 0, 0);*/
+   text-align: center;
+}
+
+.shadowbox{z-index: 3;
+pointer-events: none;
+top: 30vh;
+/* background-color: rgba(0, 0, 255, 0);*/
+/*width: 18vw;*/
+height: 5vh;
+/*box-shadow: 0px 30px 30px rgb(0, 0, 0);*/
+color: rgba(0, 0, 255, 0);
+text-shadow: 0px 30px 30px rgb(0, 0, 0);
+text-shadow: 0px 30px 45px rgb(0, 0, 0);
+
+}
+
+/*this starts the animation*/
+.directionL:hover~.move1{ 
+ animation-play-state: running;
+}
+/*this div works as a hover over key*/
+.directionL{ 
+    position: absolute;
+    top: 80vh;
+    left: 92vh;
+    width: 10vw;
+    height: 10vh;
+    background-image: url("../assets/arrow1.png");
+    background-size: 10vw 10vh;
+    /*background-color:green;*/}
+
+    /*this class is deactivated*/
+    .xxxdirectionR{ 
+    position: relative;
+    top: 50%;
+    left: 20%;
+    width: 100px;
+    height: 100px;
+    background-color: red;}
+
+
+           
+
+
+@keyframes slideLeft{
+  /*right up*/
+  0% {right: 42.5vw;
+      top: 18.3vh;
+      transform: scale(1);
+  }
+  2% {right: 45.5vw;
+    top: 18.3vh;
+    transform: scale(1);
+}
+4% {right: 48.7vw;
+  top: 18.1vh;
+  transform: scale(.99);
+}
+6% {right: 51.8vw;
+  top: 17.9vh;
+  transform: scale(.99);
+}
+8% {right: 55.1vw;
+  top: 17.6vh;
+  transform: scale(.98);
+}
+  10% {right: 58.4vw;
+  
+    top: 17.1vh;
+    transform: scale(.98);
+}
+  12%{right: 61.8vw;
+    top: 16.4vh;
+    transform: scale(.97);
+  }
+  14% {right: 65.1vw;
+    top: 15.7vh;
+    transform: scale(.96);
+}
+16% {right: 68.1vw;
+  top: 14.5vh;
+  transform: scale(.94);
+}
+
+     18% {right: 70.6vw;
+    top: 13.1vh;
+    transform: scale(.9);
+    }
+
+ 20% {right: 72.1vw;
+      top: 11.4vh;
+      transform: scale(.86);
+      background-color: aquamarine;
+  }
+  
+  22% {right: 72.3vw;
+    top: 9.7vh;
+    transform: scale(.84);
+}
+24% {right: 71.7vw;
+  top: 7.9vh;/*2.6*/
+  transform: scale(.83);
+}
+26% {right: 70.2vw;
+  top:6.3vh ;/*1.9*/
+  transform: scale(.82);
+}
+28% {right: 68vw;
+  top: 4.9vh;/*1.5*/
+  transform: scale(.82);
+}
+  30% {right: 65.3vw;
+  
+    top: 3.7vh;/*2*/
+    transform: scale(.81);
+}
+  32%{right: 62.2vw;
+    top: 2.8vh;/*1.8*/
+    transform: scale(.81);
+  }
+  34% {right: 59.3vw;
+    top: 2.1vh;/*1.6*/
+    transform: scale(.80);
+}
+36% {right: 56.4vw;
+  top: 1.8vh;/*1.5*/
+  transform: scale(.80);
+}
+38% {right: 53.8vw;
+  top: 1.4vh;
+  transform: scale(.80);
+}
+40%{right: 51.2vw;
+  top: 1.2vh;
+  transform: scale(.81);
+} 
+42% {right: 49vw;
+  
+  top: 1.1vh;
+  transform: scale(.81);
+}
+44% {right: 46.7vw;
+  top: 1vh;
+  transform: scale(.82);
+}
+46% {right: 44.6vw;
+  top: .8vh;
+  transform: scale(.82);
+}
+48% {right: 42.5vw;
+  top: .8vh;
+  transform: scale(.83);
+}
+50% {right: 42.5vw;
+  top: .8vh;
+  transform: scale(.83);
+}
+
+100% {right: 42.5vw;
+  top: .8vh;
+  transform: scale(.83);
+}
+
+
+}
+
