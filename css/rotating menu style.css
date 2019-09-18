@@ -10,35 +10,105 @@
  background-image: linear-gradient(rgb(0, 0, 58), rgb(0, 20, 92),rgb(0, 79, 143),rgb(0, 79, 143)
     ,rgb(0, 79, 143),rgb(0, 110, 141));
 }
-.bla{
+.picInMiddle{
   position: absolute;
-  z-index:2;
-  width:10vw;
-  height:10vh;
-  top:10vh;
-  right: 42vw;
+  z-index:5;
+  width:30vw;
+  height:35vh;
+  top:20vh;
+  right: 35vw;
   background-color: azure;
+  outline: thick ridge grey;
+outline-offset: 15px;
 }
 /*this is the first moving content container*/
 .move1{
+  
+  /*position data*/
 z-index: 10;
-    position: absolute;
+position: absolute;
+width: 15vw;
+height: 45vh;
+
 outline: thick ridge grey;
-outline-offset: 15px;
-    width: 15vw;
-    height: 45vh;
-    background-color: rgb(255, 230, 0);
-     animation-name: slideLeft;
+outline-offset: 15px;   
+background-color: rgb(21, 255, 0);
+
+/*animation*/    
+    animation-name: slideLeft;
      animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-timing-function: linear;
    animation-fill-mode: both;
    animation-play-state: paused;
-  /* box-shadow: 0px 30px 30px rgb(0, 0, 0);*/
+  
+   /*look*/
    text-align: center;
+   border: 0px solid red;
+  border-radius: 10px;
+  outline: thick ridge grey;
+outline-offset: 15px;   
+background-color: rgb(255, 230, 0);
+}
+.move2{
+  
+  /*position data*/
+z-index: 3;
+position: absolute;
+width: 15vw;
+height: 45vh;
+
+outline: thick ridge grey;
+outline-offset: 15px;   
+background-color: rgb(255, 230, 0);
+
+/*animation*/    
+    animation-name: slideLeft1;
+     animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+   animation-fill-mode: both;
+   animation-play-state: paused;
+  
+   /*look*/
+   text-align: center;
+   border: 0px solid red;
+  border-radius: 10px;
+  outline: thick ridge grey;
+outline-offset: 15px;   
+background-color: rgb(255, 51, 0);
 }
 
-.shadowbox{z-index: 3;
+.move3{
+  
+  /*position data*/
+z-index: 3;
+position: absolute;
+width: 15vw;
+height: 45vh;
+
+outline: thick ridge grey;
+outline-offset: 15px;   
+background-color: rgb(255, 230, 0);
+
+/*animation*/    
+    animation-name: slideLeft2;
+     animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+   animation-fill-mode: both;
+   animation-play-state: paused;
+  
+   /*look*/
+   text-align: center;
+   border: 0px solid red;
+  border-radius: 10px;
+  outline: thick ridge grey;
+outline-offset: 15px;   
+background-color: rgb(255, 230, 0);
+}
+
+.shadowbox{/*z-index: 3;*/
 pointer-events: none;
 top: 30vh;
 /* background-color: rgba(0, 0, 255, 0);*/
@@ -46,7 +116,9 @@ top: 30vh;
 height: 5vh;
 /*box-shadow: 0px 30px 30px rgb(0, 0, 0);*/
 color: rgba(0, 0, 255, 0);
-text-shadow: 0px 30px 30px rgb(0, 0, 0);
+text-shadow: 0px 30px 20px rgb(0, 0, 0);
+text-shadow: 0px 30px 35px rgb(0, 0, 0);
+text-shadow: 0px 30px 40px rgb(0, 0, 0);
 text-shadow: 0px 30px 45px rgb(0, 0, 0);
 
 }
@@ -55,7 +127,14 @@ text-shadow: 0px 30px 45px rgb(0, 0, 0);
 .directionL:hover~.move1{ 
  animation-play-state: running;
 }
-/*this div works as a hover over key*/
+.directionL:hover~.move2{ 
+  animation-play-state: running;
+ }
+ .directionL:hover~.move3{ 
+  animation-play-state: running;
+ }
+
+/*this div works as a controlbutton (hover over key)*/
 .directionL{ 
     position: absolute;
     top: 80vh;
@@ -64,8 +143,7 @@ text-shadow: 0px 30px 45px rgb(0, 0, 0);
     height: 10vh;
     background-image: url("../assets/arrow1.png");
     background-size: 10vw 10vh;
-    /*background-color:green;*/}
-
+  }
     /*this class is deactivated*/
     .xxxdirectionR{ 
     position: relative;
@@ -82,122 +160,667 @@ text-shadow: 0px 30px 45px rgb(0, 0, 0);
 @keyframes slideLeft{
   /*right up*/
   0% {right: 42.5vw;
-      top: 18.3vh;
+      top: 19.3vh;
       transform: scale(1);
+      z-index: 10;
   }
-  2% {right: 45.5vw;
-    top: 18.3vh;
+  2.04% {right: 45.5vw;
+    top: 19.3vh;
     transform: scale(1);
 }
-4% {right: 48.7vw;
-  top: 18.1vh;
+4.08% {right: 48.7vw;
+  top: 19.1vh;
   transform: scale(.99);
 }
-6% {right: 51.8vw;
-  top: 17.9vh;
+6.12% {right: 51.8vw;
+  top: 18.9vh;
   transform: scale(.99);
 }
-8% {right: 55.1vw;
-  top: 17.6vh;
+8.16% {right: 55.1vw;
+  top: 18.6vh;
   transform: scale(.98);
 }
-  10% {right: 58.4vw;
+  10.2% {right: 58.4vw;
   
-    top: 17.1vh;
+    top: 18.1vh;
     transform: scale(.98);
 }
-  12%{right: 61.8vw;
-    top: 16.4vh;
+  12.24%{right: 61.8vw;
+    top: 17.4vh;
     transform: scale(.97);
   }
-  14% {right: 65.1vw;
-    top: 15.7vh;
+  14.28% {right: 65.1vw;
+    top: 16.7vh;
     transform: scale(.96);
 }
-16% {right: 68.1vw;
-  top: 14.5vh;
+16.32% {right: 68.1vw;
+  top: 15.5vh;
   transform: scale(.94);
 }
 
-     18% {right: 70.6vw;
-    top: 13.1vh;
+     18.36% {right: 70.6vw;
+    top: 14.1vh;
     transform: scale(.9);
     }
 
- 20% {right: 72.1vw;
-      top: 11.4vh;
+ 20.4% {right: 72.1vw;
+      top: 12.4vh;
       transform: scale(.86);
-      background-color: aquamarine;
+    /*  background-color: aquamarine;*/
   }
   
-  22% {right: 72.3vw;
-    top: 9.7vh;
+  22.44% {right: 72.3vw;
+    top:10.7vh;
     transform: scale(.84);
+    z-index:3;
 }
-24% {right: 71.7vw;
-  top: 7.9vh;/*2.6*/
+24.48% {right: 71.7vw;
+  top: 8.9vh;/*2.6*/
   transform: scale(.83);
 }
-26% {right: 70.2vw;
-  top:6.3vh ;/*1.9*/
+26.52% {right: 70.2vw;
+  top:7.3vh ;/*1.9*/
   transform: scale(.82);
 }
-28% {right: 68vw;
-  top: 4.9vh;/*1.5*/
+28.56% {right: 68vw;
+  top: 5.9vh;/*1.5*/
   transform: scale(.82);
 }
-  30% {right: 65.3vw;
+  30.6% {right: 65.3vw;
   
-    top: 3.7vh;/*2*/
+    top: 4.7vh;/*2*/
     transform: scale(.81);
 }
-  32%{right: 62.2vw;
-    top: 2.8vh;/*1.8*/
+  32.64%{right: 62.2vw;
+    top: 3.8vh;/*1.8*/
     transform: scale(.81);
   }
-  34% {right: 59.3vw;
-    top: 2.1vh;/*1.6*/
+  34.68% {right: 59.3vw;
+    top: 3.1vh;/*1.6*/
     transform: scale(.80);
 }
-36% {right: 56.4vw;
-  top: 1.8vh;/*1.5*/
+36.72% {right: 56.4vw;
+  top: 2.8vh;/*1.5*/
   transform: scale(.80);
 }
-38% {right: 53.8vw;
-  top: 1.4vh;
+38.76% {right: 53.8vw;
+  top: 2.4vh;
   transform: scale(.80);
 }
-40%{right: 51.2vw;
-  top: 1.2vh;
+40.8%{right: 51.2vw;
+  top: 2.2vh;
   transform: scale(.81);
 } 
-42% {right: 49vw;
+42.84% {right: 49vw;
   
-  top: 1.1vh;
+  top: 2.1vh;
   transform: scale(.81);
 }
-44% {right: 46.7vw;
-  top: 1vh;
+44.88% {right: 46.7vw;
+  top: 2vh;
   transform: scale(.82);
 }
-46% {right: 44.6vw;
-  top: .8vh;
+46.92% {right: 44.6vw;
+  top: 1.8vh;
   transform: scale(.82);
-}
-48% {right: 42.5vw;
-  top: .8vh;
-  transform: scale(.83);
-}
-50% {right: 42.5vw;
-  top: .8vh;
-  transform: scale(.83);
 }
 
+48.96% {right: 42.5vw;
+  top: 1.8vh;
+  transform: scale(.83);
+}
+51% {right: 40.4vw;
+  top: 1.8vh;
+  transform: scale(.83);
+}
+53.04% {right: 38.3vw;
+  top: 1.8vh;
+  transform: scale(.82);
+}
+55.08% {right: 36vw;
+  top: 2vh;
+  transform: scale(.82);
+}
+57.12% {right: 33.8vw;
+  
+  top: 2.1vh;
+  transform: scale(.81);
+}
+59.16%{right: 31.2vw;
+  top: 2.2vh;
+  transform: scale(.81);
+} 
+61.2% {right: 28.6vw;
+  top: 2.4vh;
+  transform: scale(.80);
+  z-index:3;
+}
+63.24% {right: 25.7vw;
+  top: 2.8vh;/*1.5*/
+  transform: scale(.80);
+}
+65.28% {right: 22.8vw;
+  top: 3.1vh;/*1.6*/
+  transform: scale(.80);
+}
+67.32%{right: 19.7vw;
+  top: 3.8vh;/*1.8*/
+  transform: scale(.81);
+}
+69.36% {right: 17vw;
+  
+  top: 4.7vh;/*2*/
+  transform: scale(.81);
+}
+71.4% {right: 14.8vw;
+  top: 5.9vh;/*1.5*/
+  transform: scale(.82);
+}
+73.44% {right: 13.3vw;
+  top:7.3vh ;/*1.9*/
+  transform: scale(.82);
+}
+75.48% {right: 12.7vw;
+  top: 8.9vh;/*2.6*/
+  transform: scale(.83);
+}
+77.52% {right: 12.9vw;
+  top:10.7vh;
+  transform: scale(.84);
+  z-index:10;
+}
+79.56% {right: 14.4vw;
+  top: 12.4vh;
+  transform: scale(.86);
+ /* background-color: aquamarine;*/
+}
+
+81.6% {right: 16.9vw;
+  top: 14.1vh;
+  transform: scale(.9);
+  }
+  83.64% {right: 19.9vw;
+    top: 15.5vh;
+    transform: scale(.94);
+  }
+  85.68% {right: 23.2vw;
+    top: 16.7vh;
+    transform: scale(.96);
+}
+87.72%{right: 26.6vw;
+  top: 17.4vh;
+  transform: scale(.97);
+}
+89.76% {right: 29.9vw;
+  
+  top: 18.1vh;
+  transform: scale(.98);
+}
+91.8% {right: 33.2vw;
+  top: 18.6vh;
+  transform: scale(.98);
+}
+93.84% {right: 36.3vw;
+  top: 18.9vh;
+  transform: scale(.99);
+}
+95.88% {right: 39.5vw;
+  top: 19.1vh;
+  transform: scale(.99);
+}
+97.92% {right: 41.5vw;
+  top: 19.3vh;
+  transform: scale(1);
+}
 100% {right: 42.5vw;
-  top: .8vh;
-  transform: scale(.83);
+  top: 19.3vh;
+  transform: scale(1);
+}
+
+}
+
+@keyframes slideLeft1{
+  0% {right: 17vw;
+
+    top: 4.7vh;/*2*/
+    transform: scale(.81);
+    }
+    2.04% {right: 14.8vw;
+    top: 5.9vh;/*1.5*/
+    transform: scale(.82);
+    }
+    4.08% {right: 13.3vw;
+    top:7.3vh ;/*1.9*/
+    transform: scale(.82);
+    }
+    6.12% {right: 12.7vw;
+    top: 8.9vh;/*2.6*/
+    transform: scale(.83);
+    }
+    8.16% {right: 12.9vw;
+    top:10.7vh;
+    transform: scale(.84);
+    z-index:10;
+    }
+    10.2% {right: 14.4vw;
+    top: 12.4vh;
+    transform: scale(.86);
+   /* background-color: aquamarine;*/
+    }
+    
+    12.24% {right: 16.9vw;
+    top: 14.1vh;
+    transform: scale(.9);
+    }
+    14.28% {right: 19.9vw;
+      top: 15.5vh;
+      transform: scale(.94);
+    }
+    16.32% {right: 23.2vw;
+      top: 16.7vh;
+      transform: scale(.96);
+    }
+    18.36%{right: 26.6vw;
+    top: 17.4vh;
+    transform: scale(.97);
+    }
+    20.4% {right: 29.9vw;
+    
+    top: 18.1vh;
+    transform: scale(.98);
+    }
+    22.44% {right: 33.2vw;
+    top: 18.6vh;
+    transform: scale(.98);
+    }
+    24.48% {right: 36.3vw;
+    top: 18.9vh;
+    transform: scale(.99);
+    }
+    26.52% {right: 39.5vw;
+    top: 19.1vh;
+    transform: scale(.99);
+    }
+    28.56% {right: 41.5vw;
+    top: 19.3vh;
+    transform: scale(1);
+    }
+    30.6% {right: 42.5vw;
+    top: 19.3vh;
+    transform: scale(1);
+    }
+    /*animation split*/
+  32.64% {right: 44vw;
+    top: 19.3vh;
+    transform: scale(1);
+    z-index: 10;
+}
+34.68% {right: 45.5vw;
+  top: 19.3vh;
+  transform: scale(1);
+}
+36.72% {right: 48.7vw;
+top: 19.1vh;
+transform: scale(.99);
+}
+38.76% {right: 51.8vw;
+top: 18.9vh;
+transform: scale(.99);
+}
+40.8% {right: 55.1vw;
+top: 18.6vh;
+transform: scale(.98);
+}
+42.84% {right: 58.4vw;
+
+  top: 18.1vh;
+  transform: scale(.98);
+}
+44.88%{right: 61.8vw;
+  top: 17.4vh;
+  transform: scale(.97);
+}
+46.92% {right: 65.1vw;
+  top: 16.7vh;
+  transform: scale(.96);
+}
+48.96% {right: 68.1vw;
+top: 15.5vh;
+transform: scale(.94);
+}
+
+  51% {right: 70.6vw;
+  top: 14.1vh;
+  transform: scale(.9);
+  }
+
+53.04% {right: 72.1vw;
+    top: 12.4vh;
+    transform: scale(.86);
+  /*  background-color: aquamarine;*/
+}
+
+55.08% {right: 72.3vw;
+  top:10.7vh;
+  transform: scale(.84);
+  z-index:3;
+}
+57.12% {right: 71.7vw;
+top: 8.9vh;/*2.6*/
+transform: scale(.83);
+}
+59.16% {right: 70.2vw;
+top:7.3vh ;/*1.9*/
+transform: scale(.82);
+}
+61.2% {right: 68vw;
+top: 5.9vh;/*1.5*/
+transform: scale(.82);
+}
+63.24% {right: 65.3vw;
+
+  top: 4.7vh;/*2*/
+  transform: scale(.81);
+}
+65.28%{right: 62.2vw;
+  top: 3.8vh;/*1.8*/
+  transform: scale(.81);
+}
+67.32% {right: 59.3vw;
+  top: 3.1vh;/*1.6*/
+  transform: scale(.80);
+}
+69.36% {right: 56.4vw;
+top: 2.8vh;/*1.5*/
+transform: scale(.80);
+}
+71.4% {right: 53.8vw;
+top: 2.4vh;
+transform: scale(.80);
+}
+73.44%{right: 51.2vw;
+top: 2.2vh;
+transform: scale(.81);
+} 
+75.48% {right: 49vw;
+
+top: 2.1vh;
+transform: scale(.81);
+}
+77.52% {right: 46.7vw;
+top: 2vh;
+transform: scale(.82);
+}
+79.56% {right: 44.6vw;
+top: 1.8vh;
+transform: scale(.82);
+}
+
+81.6% {right: 42.5vw;
+top: 1.8vh;
+transform: scale(.83);
+}
+83.64% {right: 40.4vw;
+top: 1.8vh;
+transform: scale(.83);
+}
+85.68% {right: 38.3vw;
+top: 1.8vh;
+transform: scale(.82);
+}
+87.72% {right: 36vw;
+top: 2vh;
+transform: scale(.82);
+}
+89.76% {right: 33.8vw;
+
+top: 2.1vh;
+transform: scale(.81);
+}
+91.8%{right: 31.2vw;
+top: 2.2vh;
+transform: scale(.81);
+} 
+93.84% {right: 28.6vw;
+top: 2.4vh;
+transform: scale(.80);
+z-index:3;
+}
+95.88% {right: 25.7vw;
+top: 2.8vh;/*1.5*/
+transform: scale(.80);
+}
+97.52% {right: 22.8vw;
+top: 3.1vh;/*1.6*/
+transform: scale(.80);
+}
+100%{right: 19.7vw;
+top: 3.8vh;/*1.8*/
+transform: scale(.81);
 }
 
 
 }
 
+@keyframes slideLeft2{
+   /*right up*/
+   0% {right: 42.5vw;
+    top: 19.3vh;
+    transform: scale(1);
+    z-index: 10;
+}
+2.04% {right: 45.5vw;
+  top: 19.3vh;
+  transform: scale(1);
+}
+4.08% {right: 48.7vw;
+top: 19.1vh;
+transform: scale(.99);
+}
+6.12% {right: 51.8vw;
+top: 18.9vh;
+transform: scale(.99);
+}
+8.16% {right: 55.1vw;
+top: 18.6vh;
+transform: scale(.98);
+}
+10.2% {right: 58.4vw;
+
+  top: 18.1vh;
+  transform: scale(.98);
+}
+12.24%{right: 61.8vw;
+  top: 17.4vh;
+  transform: scale(.97);
+}
+14.28% {right: 65.1vw;
+  top: 16.7vh;
+  transform: scale(.96);
+}
+16.32% {right: 68.1vw;
+top: 15.5vh;
+transform: scale(.94);
+}
+
+   18.36% {right: 70.6vw;
+  top: 14.1vh;
+  transform: scale(.9);
+  }
+
+20.4% {right: 72.1vw;
+    top: 12.4vh;
+    transform: scale(.86);
+  /*  background-color: aquamarine;*/
+}
+
+22.44% {right: 72.3vw;
+  top:10.7vh;
+  transform: scale(.84);
+  z-index:3;
+}
+24.48% {right: 71.7vw;
+top: 8.9vh;/*2.6*/
+transform: scale(.83);
+}
+26.52% {right: 70.2vw;
+top:7.3vh ;/*1.9*/
+transform: scale(.82);
+}
+28.56% {right: 68vw;
+top: 5.9vh;/*1.5*/
+transform: scale(.82);
+}
+30.6% {right: 65.3vw;
+
+  top: 4.7vh;/*2*/
+  transform: scale(.81);
+}
+32.64%{right: 62.2vw;
+  top: 3.8vh;/*1.8*/
+  transform: scale(.81);
+}
+34.68% {right: 59.3vw;
+  top: 3.1vh;/*1.6*/
+  transform: scale(.80);
+}
+36.72% {right: 56.4vw;
+top: 2.8vh;/*1.5*/
+transform: scale(.80);
+}
+38.76% {right: 53.8vw;
+top: 2.4vh;
+transform: scale(.80);
+}
+40.8%{right: 51.2vw;
+top: 2.2vh;
+transform: scale(.81);
+} 
+42.84% {right: 49vw;
+
+top: 2.1vh;
+transform: scale(.81);
+}
+44.88% {right: 46.7vw;
+top: 2vh;
+transform: scale(.82);
+}
+46.92% {right: 44.6vw;
+top: 1.8vh;
+transform: scale(.82);
+}
+
+48.96% {right: 42.5vw;
+top: 1.8vh;
+transform: scale(.83);
+}
+51% {right: 40.4vw;
+top: 1.8vh;
+transform: scale(.83);
+}
+53.04% {right: 38.3vw;
+top: 1.8vh;
+transform: scale(.82);
+}
+55.08% {right: 36vw;
+top: 2vh;
+transform: scale(.82);
+}
+57.12% {right: 33.8vw;
+
+top: 2.1vh;
+transform: scale(.81);
+}
+59.16%{right: 31.2vw;
+top: 2.2vh;
+transform: scale(.81);
+} 
+61.2% {right: 28.6vw;
+top: 2.4vh;
+transform: scale(.80);
+z-index:3;
+}
+63.24% {right: 25.7vw;
+top: 2.8vh;/*1.5*/
+transform: scale(.80);
+}
+65.28% {right: 22.8vw;
+top: 3.1vh;/*1.6*/
+transform: scale(.80);
+}
+67.32%{right: 19.7vw;
+top: 3.8vh;/*1.8*/
+transform: scale(.81);
+}
+69.36% {right: 17vw;
+
+top: 4.7vh;/*2*/
+transform: scale(.81);
+}
+71.4% {right: 14.8vw;
+top: 5.9vh;/*1.5*/
+transform: scale(.82);
+}
+73.44% {right: 13.3vw;
+top:7.3vh ;/*1.9*/
+transform: scale(.82);
+}
+75.48% {right: 12.7vw;
+top: 8.9vh;/*2.6*/
+transform: scale(.83);
+}
+77.52% {right: 12.9vw;
+top:10.7vh;
+transform: scale(.84);
+z-index:10;
+}
+79.56% {right: 14.4vw;
+top: 12.4vh;
+transform: scale(.86);
+/* background-color: aquamarine;*/
+}
+
+81.6% {right: 16.9vw;
+top: 14.1vh;
+transform: scale(.9);
+}
+83.64% {right: 19.9vw;
+  top: 15.5vh;
+  transform: scale(.94);
+}
+85.68% {right: 23.2vw;
+  top: 16.7vh;
+  transform: scale(.96);
+}
+87.72%{right: 26.6vw;
+top: 17.4vh;
+transform: scale(.97);
+}
+89.76% {right: 29.9vw;
+
+top: 18.1vh;
+transform: scale(.98);
+}
+91.8% {right: 33.2vw;
+top: 18.6vh;
+transform: scale(.98);
+}
+93.84% {right: 36.3vw;
+top: 18.9vh;
+transform: scale(.99);
+}
+95.88% {right: 39.5vw;
+top: 19.1vh;
+transform: scale(.99);
+}
+97.92% {right: 41.5vw;
+top: 19.3vh;
+transform: scale(1);
+}
+100% {right: 42.5vw;
+top: 19.3vh;
+transform: scale(1);
+}
+
+
+}
