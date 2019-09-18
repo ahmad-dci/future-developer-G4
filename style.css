@@ -147,38 +147,69 @@ body{
 
 /* The images used in the slides, feel free to change this */
 #image-1 {
-	background: url("");
+    background: url("/css/image10.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 #image-2 {
-	background: url("./img/image2.png");
+    background: url("/css/image11.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #image-3 {
-	background: url("./img/image3.png");
+    background: url("/css/image12.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #image-4 {
-	background: url("./img/image4.png");
+    background: url("/css/image13.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #image-5 {
-	background: url("./img/image5.png");
+    background: url("/css/image14.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #image-6 {
-	background: url("./img/image6.png");
+    background: url("/css/image15.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #image-7 {
-	background: url("./img/image7.png");
+    background: url("/css/image16.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #image-8 {
-	background: url("./img/image8.png");
+    background: url("/css/image17.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #image-9 {
-	background: url("./img/image9.png");
+    background: url("/css/image2.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #image-10 {
-	background: url("./img/image10.png");
+    background: url("/css/image1.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
