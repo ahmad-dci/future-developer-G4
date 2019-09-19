@@ -280,6 +280,19 @@ body{
 
 #slider #button-10:checked ~ #slides > div > span { left: -85% } 
 
+#slider #button-6:checked ~ #slides > div > span { left: -95% }
+
+#slider #button-7:checked ~ #slides > div > span { left: -105% }
+
+ #slider #button-8:checked ~ #slides > div > span { left: -115% }
+
+#slider #button-9:checked ~ #slides > div > span { left: -125% }
+
+#slider #button-10:checked ~ #slides > div > span { left: -135% }  
+
+
+
+
 
 
 
