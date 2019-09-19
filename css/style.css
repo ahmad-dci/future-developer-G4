@@ -16,7 +16,6 @@ body{
 .content{
     position: relative;
     border: 1px solid white; 
-    transition: cubic-bezier(0.42, 0.0, 0.58, 1.0;)
 }
 
 .content > input{ /* HIDE RADIO */
@@ -24,18 +23,96 @@ body{
     position: absolute; /* Remove input from document flow */
 }
 
+.content > label{
+    transition: .8s;
+    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    color: white;
+}
+
 .you{
     position: absolute;
-    left: 0px;
     background-color: rgb(0, 134, 158);
+    opacity: .30;
+    right:220px;
     height: 280px;
     width: 70%;
+    transform: translateX(10%);
     clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
 }
-.content > input:checked + .you{
-    transition: .8s;
-    transform: translateX(-500px);
-    background: rgba(16, 34, 39,1);}
+
+.do{
+    position: absolute;
+    opacity: .30;
+    right:160px;
+    background-color: rgb(248, 107, 6);
+    height: 280px;
+    width: 70%;
+    transform: translateX(10%);
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}
+
+.mot{
+    position: absolute;
+    background-color: rgb(28, 222, 126);
+    opacity: .30;
+    right:100px;
+    height: 280px;
+    width: 70%;
+    transform: translateX(10%);
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}
+
+#toggleYou:checked + .you{
+    width: 70%;
+    opacity: .8;
+}
+
+#toggleYou:checked ~ .do{
+    width: 70%;
+    opacity: .6;
+}
+
+#toggleYou:checked ~ .mot{
+    width: 70%;
+    opacity: .6;
+}
+
+#toggleDoing:checked ~ .you{
+    width: 70%;
+    opacity: .6;
+    right: 600px;
+}
+
+#toggleDoing:checked + .do{
+    width: 70%;
+    opacity: .8;
+    right: 160px;
+
+}
+
+#toggleDoing:checked ~ .mot{
+    width: 70%;
+    opacity: .6;
+    right: 100px;
+}
+
+#toggleMot:checked ~ .you{
+    width: 70%;
+    opacity: .6;
+    right: 600px;
+}
+
+#toggleMot:checked ~ .do{
+    width: 70%;
+    opacity: .6;
+    right: 540px;
+}
+
+#toggleMot:checked + .mot{
+    width: 70%;
+    opacity: .8;
+    right: 100px;
+}
 
 .you > h3{
     position: absolute;
@@ -46,20 +123,6 @@ body{
     text-align: right;
 }
 
-.do{
-    position: absolute;
-    left:60px;
-    background-color: rgb(248, 107, 6);
-    height: 280px;
-    width: 70%;    
-    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
-}
-
-.content > input:checked + .do{
-    transition: .8s;
-    transform: translateX(-500px);
-    background: #102227;}
-
 .do > h3{
     position: absolute;
     right: 3%;
@@ -69,22 +132,6 @@ body{
     text-align: right;
 }
 
-.mot{
-    position: absolute;
-    left: 120px;
-    background-color: rgb(28, 222, 126);
-    height: 280px;
-    width: 70%;    
-    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
-}
-.content > input:checked + .mot{
-    transition: .8s;
-    transform: translateX(-500px);
-    background: #102227;}
-
-.content > input:checked + .mot .do .you{
-        transform: translateX(-500px);
-}
 
 .mot > h3{
     position: absolute;
