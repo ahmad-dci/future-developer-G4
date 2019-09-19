@@ -273,7 +273,7 @@ body {
 
 /* ================ IGNORE ================ */
 
-/* #header {
+#header {
 	width: 100%;
 	line-height: 30px;
 	margin: 50px auto;
@@ -300,7 +300,7 @@ body {
 	display: none;
 }
 
-.content > input{ /* HIDE RADIO */
+.content > input{ 
     visibility: hidden; /* Makes input not-clickable */
     position: absolute; /* Remove input from document flow */
 }
@@ -424,4 +424,4 @@ body {
     transform: rotate(58deg);
     text-align: right;
     transform-origin: 0 0; 
-} */
+} 
