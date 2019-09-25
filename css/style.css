@@ -772,15 +772,15 @@ body {
    slide is selected */
 
 #slider #button-1:checked~#slides>div>span {
-    left: 7.5%
+    left: 8.5%
 }
 
 #slider #button-2:checked~#slides>div>span {
-    left: 2.5%
+    left: 3.5%
 }
 
 #slider #button-3:checked~#slides>div>span {
-    left: -2.5%
+    left: -.5%
 }
 
 #slider #button-4:checked~#slides>div>span {
