@@ -142,21 +142,27 @@ p{
 #slider .arrows {
     color: #fff;
     position: absolute;
-    top: 290px;
+    top: 22vw;
     display: none;
     cursor: pointer;
     z-index: 9999;
-    width: 29px;
-    height: 25px;
-    border-radius: 32px;
+    width: 45px;
+    height: 40px;
+    border-radius: 40px;
     text-align: center;
     padding: 7px 0 0 3px;    
     border: 1px solid ;  
-    border-radius: 20px;}
+    
+}
 
 #slider .arrows:hover {
     box-shadow: 0 0 20px rgba(200, 235, 248, 0.98);
+    transition: box-shadow .2s;
 }
+/* #slider .arrows::hover){
+    box-shadow: 0 0 40px rgba(200, 235, 248, 0.98);
+    transition: box-shadow .2s;
+} */
 
 
 /* This is for positioning the arrows */
@@ -179,7 +185,7 @@ p{
 #button-17:checked~#arrow-18,
 #button-18:checked~#arrow-19,
 #button-19:checked~#arrow-20{
-    right: 27%;
+    right: 37%;
     display: block;
 }
 
@@ -203,7 +209,7 @@ p{
 #button-18:checked~#arrow-17,
 #button-19:checked~#arrow-18,
 #button-20:checked~#arrow-19 {
-    left: 27%;
+    left: 37%;
     display: block;
     -webkit-transform: rotateZ(180deg);
     -o-transform: rotateZ(180deg);
@@ -737,7 +743,7 @@ p{
    #slider #button-16:checked~#slides>div #image-3,
    #slider #button-16:checked~#slides>div #image-2,
    #slider #button-16:checked~#slides>div #image-1,
-   
+
    #slider #button-17:checked~#slides>div #image-16,
    #slider #button-17:checked~#slides>div #image-15,
    #slider #button-17:checked~#slides>div #image-14,
@@ -934,8 +940,29 @@ p{
     cursor: pointer;
 }    
 .content label h3{
-border: .5px solid #fff;}
+border: .5px solid #fff;
+}
 
+.img1Cont > label.you, .img2Cont > label.you, .img3Cont > label.you, .img4Cont > label.you, .img5Cont > label .you
+.img6Cont > label.you, .img7Cont > label.you, .img8Cont > label.you, .img9Cont > label.you, .img10Cont > label.you
+.img11Cont > label.you, .img12Cont > label.you, .img13Cont > label.you, .img14Cont > label.you, .img15Cont > label.you
+.img16Cont > label.you, .img17Cont > label.you, .img18Cont > label.you, .img19Cont > label.you, .img20Cont > label.you{
+padding: 1em;
+}
+
+.img1Cont > label.do, .img2Cont > label.do, .img3Cont > label.do, .img4Cont > label.do, .img5Cont > label .do
+.img6Cont > label.do, .img7Cont > label.do, .img8Cont > label.do, .img9Cont > label.do, .img10Cont > label.do
+.img11Cont > label.do, .img12Cont > label.do, .img13Cont > label.do, .img14Cont > label.do, .img15Cont > label.do
+.img16Cont > label.do, .img17Cont > label.do, .img18Cont > label.do, .img19Cont > label.do, .img20Cont > label.do{
+padding: 1em;
+}
+
+.img1Cont > label.mot, .img2Cont > label.mot, .img3Cont > label.mot, .img4Cont > label.mot, .img5Cont > label .mot
+.img6Cont > label.mot, .img7Cont > label.mot, .img8Cont > label.mot, .img9Cont > label.mot, .img10Cont > label.mot
+.img11Cont > label.mot, .img12Cont > label.mot, .img13Cont > label.mot, .img14Cont > label.mot, .img15Cont > label.mot
+.img16Cont > label.mot, .img17Cont > label.mot, .img18Cont > label.mot, .img19Cont > label.mot, .img20Cont > label.you{
+padding: 1em;
+}
 
 .you{
     position: absolute;
