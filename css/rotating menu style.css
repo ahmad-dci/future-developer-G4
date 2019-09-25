@@ -3,7 +3,7 @@
   margin:0;
 }
 .cbcontainer{z-index: 1;
-
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
     width: 100vw;
     height: 100vh;
@@ -894,6 +894,47 @@ transform: scale(1);
     .move3 div:first-child{
        /*the look*/
        padding: 20px;
+      font-size: 1.6vw;
+    }
+    
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  .move1{
+  
+    /*position data*/
+    height: 25vh;
+    
+  } 
+    
+    .move1 div:first-child{
+      /*the look*/
+     bottom: 50vh;
+      padding: 10px;
+      font-size: 1.8vw;
+    }
+    .move2{
+    /*position data*/
+    height: 25vh;
+    }
+       
+       .move2 div:first-child{
+      /*the look*/
+      padding: 10px;
+      font-size: 1.6vw;
+    }
+    
+    .move3{
+      
+      /*position data*/
+    height: 25vh;
+    
+    }
+    .move3 div:first-child{
+       /*the look*/
+       padding: 10px;
       font-size: 1.6vw;
     }
     
