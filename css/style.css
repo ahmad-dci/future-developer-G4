@@ -200,17 +200,17 @@ body {
 
 /* The images used in the slides, feel free to change this */
 #image-1 {
-    background: url("./image1.png");
-    background-size: auto 100%;
+               background: url("./image1.png");
+     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;  
 }
 
 #image-2 {
-    background: url("./image2.png");
-    background-size: auto 100%;
+ background: url("./image2.png");
+     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;  
 }
 
 #image-3 {
@@ -772,83 +772,83 @@ body {
    slide is selected */
 
 #slider #button-1:checked~#slides>div>span {
-    left: 5%
+    left: 7.5%
 }
 
 #slider #button-2:checked~#slides>div>span {
-    left: 0%
+    left: 2.5%
 }
 
 #slider #button-3:checked~#slides>div>span {
-    left: -5%
+    left: -2.5%
 }
 
 #slider #button-4:checked~#slides>div>span {
-    left: -10%
+    left: -7.5%
 }
 
 #slider #button-5:checked~#slides>div>span {
-    left: -15%
+    left: -12.5%
 }
 
 
 #slider #button-6:checked~#slides>div>span {
 
-    left: -20%
+    left: -17.5%
 }
 
 #slider #button-7:checked~#slides>div>span {
-    left: -25%
+    left: -22.5%
 }
 
 #slider #button-8:checked~#slides>div>span {
-    left: -30%
+    left: -27.5%
 }
 
 #slider #button-9:checked~#slides>div>span {
-    left: -35%
+    left: -32.5%
 }
 
 #slider #button-10:checked~#slides>div>span {
-    left: -40%
+    left: -37.5%
 }
 
 #slider #button-11:checked~#slides>div>span {
-    left: -45%
+    left: -42.5%
 }
 
 #slider #button-12:checked~#slides>div>span {
-    left: -50%
+    left: -47.5%
 }
 
 #slider #button-13:checked~#slides>div>span {
-    left: -55%
+    left: -52.5%
 }
 
 #slider #button-14:checked~#slides>div>span {
-    left: -60%
+    left: -57.5%
 }
 
 #slider #button-15:checked~#slides>div>span {
-    left: -65%
+    left: -62.5%
 }
 
 #slider #button-16:checked~#slides>div>span {
-    left: -70%
+    left: -67.5%
 }
 
 #slider #button-17:checked~#slides>div>span {
-    left: -75%
+    left: -72.5%
 }
 
 #slider #button-18:checked~#slides>div>span {
-    left: -80%
+    left: -77.5%
 }
 
 #slider #button-19:checked~#slides>div>span {
-    left: -90%
+    left: -82.5%
 }
 
 #slider #button-20:checked~#slides>div>span {
-    left: -95%
+    left: -87.5%
 }
