@@ -3,8 +3,6 @@
   font-family: Open Sans;
 }
 
-
-
 .footer-distributed{
 	background: #666;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -28,7 +26,7 @@
 	width: 40%;
 }
 
-/* The company logo */
+/* Future Developers Logo */
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -39,6 +37,11 @@
 .footer-distributed h3 span{
 	color:  lightseagreen;
 }
+
+.footer-distributed h3:hover{
+    font-size: 52px;
+}
+
 
 /* Footer links */
 
@@ -82,6 +85,10 @@
 	vertical-align: middle;
 }
 
+.footer-center i:hover{
+    background-color: orangered;
+}
+
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
@@ -121,7 +128,7 @@
   content: none;
 }
 
-/* Footer Right */
+/* Footer Right Side */
 
 .footer-distributed .footer-right{
 	width: 20%;
@@ -164,7 +171,11 @@
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+.footer-icons a:hover{
+    background-color: orangered;
+}
+
+/* RESPONSIVE SECTION */
 
 @media (max-width: 880px) {
 
