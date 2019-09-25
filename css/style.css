@@ -17,49 +17,52 @@ body{
     background-size:100vw 100vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw;
     background-position:0 0,100% 0,top 100vh left,top 200vh right,top 300vh left,top 400vh right,top 500vh left,top 600vh right,top 700vh left,top 800vh right,top 900vh left,top 1000vh right,top 1100vh left,top 1200vh right,top 1300vh left,top 1400vh right,top 1500vh left,top 1600vh right,top 1700vh left,top 1800vh right,top 1900vh left,top 2000vh right,top 2100vh left,top 2200vh right,top 2300vh left,top 2400vh right,top 2500vh left,top 2600vh right;
     background-repeat:no-repeat;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     }
 
 header{
-    height: 80vh;
+    width: 100%;
+    height: 33vw;
 }
 main{
-    height: 100vh;
-    
+    height: 100vw;
 }    
 
 footer{
-    height: 30vh;
+    height: 30vw;
 }    
 
 .container{
-    margin: 0 3vw;
+    margin: 0 5vw;
     border: 1px solid white;
 }    
 
 .header {
     position: absolute;
     left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 3em;
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 1em;
     color: white;
 }
 
 .header :first-child{
-    font-size: 14vh;
+    font-size: 8vw;
     margin-bottom: 0;
    
 }
 .header :nth-child(2){
-    font-size: 14vh;
+    font-size: 8vw;
     margin-top: 0;
-    margin-left: 33vh;
+    margin-left: 14vw;
    
 }
 
 p{
-    font-size: 4vh;
+    font-size: 1.5vw;
+    text-align: center;
 }
 
 /***********************************************************/
@@ -72,7 +75,7 @@ p{
 
 #slider {
     display: block;
-    height: 550px;
+    height: 450px;
     width: 99%;
     margin: auto;
     margin-top: 60px;
@@ -340,8 +343,14 @@ p{
 /***********************************************************/        
 
 .content{
-    position: relative;
-    pointer
+    position: absolute;
+    left: 50%;
+    top: 33vw;
+    width: 70%;
+    height: 300px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
 }    
 
 .content input{ /* HIDE RADIO */
@@ -355,16 +364,18 @@ p{
     transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530);
     color: white;
     cursor: pointer;
-
 }    
+.content label h3{
+border: .5px solid #fff;}
+
 
 .you{
     position: absolute;
     background-color: rgb(0, 134, 158);
     opacity: 1;
-    right:220px;
+    right:200px;
     height: 280px;
-    width: 70%;
+    width: 100%;
     transform: translateX(10%);
     clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
 }    
@@ -372,10 +383,10 @@ p{
 .do{
     position: absolute;
     opacity: .60;
-    right:160px;
+    right:140px;
     background-color: rgb(248, 107, 6);
     height: 280px;
-    width: 70%;
+    width: 100%;
     transform: translateX(10%);
     clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
 }    
@@ -384,9 +395,9 @@ p{
     position: absolute;
     background-color: rgb(28, 222, 126);
     opacity: .60;
-    right:100px;
+    right:80px;
     height: 280px;
-    width: 70%;
+    width: 100%;
     transform: translateX(10%);
     clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
 }    
@@ -396,9 +407,7 @@ p{
 .img5Cont > #toggleYou5:checked + .you, .img6Cont > #toggleYou6:checked + .you, 
 .img7Cont > #toggleYou7:checked + .you, .img8Cont > #toggleYou8:checked + .you,
 .img9Cont > #toggleYou9:checked + .you,.img10Cont > #toggleYou10:checked + .you{
-    width: 70%;
     opacity: 1;
-    right:220px;
 
 }    
 
@@ -407,9 +416,7 @@ p{
 .img5Cont > #toggleYou5:checked ~ .do, .img6Cont > #toggleYou6:checked ~ .do, 
 .img7Cont > #toggleYou7:checked ~ .do, .img8Cont > #toggleYou8:checked ~ .do,
 .img9Cont > #toggleYou9:checked ~ .do,.img10Cont > #toggleYou10:checked ~ .do{
-    width: 70%;
     opacity: .6;
-    right:160px;
 
 }    
 
@@ -418,9 +425,7 @@ p{
 .img5Cont > #toggleYou5:checked ~ .mot, .img6Cont > #toggleYou6:checked ~ .mot, 
 .img7Cont > #toggleYou7:checked ~ .mot, .img8Cont > #toggleYou8:checked ~ .mot,
 .img9Cont > #toggleYou9:checked ~ .mot,.img10Cont > #toggleYou10:checked ~ .mot{
-    width: 70%;
     opacity: .6;
-    right:100px;
 
 }    
 
@@ -429,9 +434,8 @@ p{
 .img5Cont > #toggleDoing5:checked ~ .you, .img6Cont > #toggleDoing6:checked ~ .you, 
 .img7Cont > #toggleDoing7:checked ~ .you, .img8Cont > #toggleDoing8:checked ~ .you,
 .img9Cont > #toggleDoing9:checked ~ .you,.img10Cont > #toggleDoing10:checked ~ .you{
-    width: 70%;
     opacity: .6;
-    right: 600px;
+    right: 680px;
 }    
 
 .img1Cont > #toggleDoing1:checked + .do, .img2Cont > #toggleDoing2:checked + .do, 
@@ -439,9 +443,7 @@ p{
 .img5Cont > #toggleDoing5:checked + .do, .img6Cont > #toggleDoing6:checked + .do, 
 .img7Cont > #toggleDoing7:checked + .do, .img8Cont > #toggleDoing8:checked + .do,
 .img9Cont > #toggleDoing9:checked + .do,.img10Cont > #toggleDoing10:checked + .do{
-    width: 70%;
     opacity: 1;
-    right: 160px;
 
 }    
 
@@ -450,9 +452,7 @@ p{
 .img5Cont > #toggleDoing5:checked ~ .mot, .img6Cont > #toggleDoing6:checked ~ .mot, 
 .img7Cont > #toggleDoing7:checked ~ .mot, .img8Cont > #toggleDoing8:checked ~ .mot,
 .img9Cont > #toggleDoing9:checked ~ .mot,.img10Cont > #toggleDoing10:checked ~ .mot{
-    width: 70%;
     opacity: .6;
-    right: 100px;
 }    
 
 .img1Cont > #toggleMot1:checked ~ .you, .img2Cont > #toggleMot2:checked ~ .you, 
@@ -460,9 +460,8 @@ p{
 .img5Cont > #toggleMot5:checked ~ .you, .img6Cont > #toggleMot6:checked ~ .you, 
 .img7Cont > #toggleMot7:checked ~ .you, .img8Cont > #toggleMot8:checked ~ .you,
 .img9Cont > #toggleMot9:checked ~ .you,.img10Cont > #toggleMot10:checked ~ .you{
-    width: 70%;
     opacity: .6;
-    right: 600px;
+    right: 680px;
 }    
 
 .img1Cont > #toggleMot1:checked ~ .do, .img2Cont > #toggleMot2:checked ~ .do, 
@@ -470,9 +469,8 @@ p{
 .img5Cont > #toggleMot5:checked ~ .do, .img6Cont > #toggleMot6:checked ~ .do, 
 .img7Cont > #toggleMot7:checked ~ .do, .img8Cont > #toggleMot8:checked ~ .do,
 .img9Cont > #toggleMot9:checked ~ .do, .img10Cont > #toggleMot10:checked ~ .do{
-    width: 70%;
     opacity: .6;
-    right: 540px;
+    right: 620px;
 }    
 
 .img1Cont > #toggleMot1:checked + .mot, .img2Cont > #toggleMot2:checked + .mot, 
@@ -480,9 +478,7 @@ p{
 .img5Cont > #toggleMot5:checked + .mot, .img6Cont > #toggleMot6:checked + .mot, 
 .img7Cont > #toggleMot7:checked + .mot, .img8Cont > #toggleMot8:checked + .mot,
 .img9Cont > #toggleMot9:checked + .mot,.img10Cont > #toggleMot10:checked + .mot{
-    width: 70%;
     opacity: 1;
-    right: 100px;
 }    
 
 .you > h3{
