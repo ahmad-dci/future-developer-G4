@@ -118,6 +118,8 @@ height: 45vh;
    animation-fill-mode: both;
    animation-play-state: paused;
 }
+.move3 a{   text-decoration: none;} 
+
 .move3 div:first-child{
    /*the look*/
    padding: 40px;
@@ -125,6 +127,7 @@ height: 45vh;
    color: rgb(155, 155, 155);
    text-shadow:0px -1px 1px rgb(233, 233, 233), 0px 1px 1px rgb(56, 56, 56) ;
     text-align: center;
+ 
   font-size: 1.3vw;
    border: 0px solid red;
   outline: thick ridge grey;
@@ -180,7 +183,7 @@ text-shadow: 0px 30px 45px rgb(0, 0, 0);
   /*right up*/
   0% {right: 42.5vw;
       top: 29.3vh;
-      transform: scaleX(3);
+      transform: scale(1);
       z-index: 10;
   }
   2.04% {right: 45.5vw;
@@ -853,5 +856,46 @@ top: 19.3vh;
 transform: scale(1);
 }*/
 
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .move1{
+  
+    /*position data*/
+    height: 25vh;
+    
+  } 
+    
+    .move1 div:first-child{
+      /*the look*/
+     bottom: 50vh;
+      padding: 20px;
+      font-size: 1.8vw;
+    }
+    .move2{
+    /*position data*/
+    height: 25vh;
+    }
+       
+       .move2 div:first-child{
+      /*the look*/
+      padding: 20px;
+      font-size: 1.6vw;
+    }
+    
+    .move3{
+      
+      /*position data*/
+    height: 25vh;
+    
+    }
+    .move3 div:first-child{
+       /*the look*/
+       padding: 20px;
+      font-size: 1.6vw;
+    }
+    
 
 }
