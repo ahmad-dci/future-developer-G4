@@ -1,24 +1,83 @@
-body {
-    margin: 0;
+/***********************************************************/
+
+        /* ================ Main Stuff ================ */
+
+/***********************************************************/
+
+
+*{
     padding: 0;
-    font-size: 62.5%;
+    margin: 0;
 }
 
-body {
-    background-color: #102227;
-    background-image: -o-radial-gradient(left top, circle 100vw, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), -o-radial-gradient(left center, circle 100vw, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), -o-radial-gradient(right center, circle 100vw, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%);
-    background-image: radial-gradient(circle 100vw at left top, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .5) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(247, 105, 6, .25) 0, rgba(247, 105, 6, 0) 100%), radial-gradient(circle 100vw at left center, rgba(28, 222, 126, .2) 0, rgba(28, 222, 126, 0) 100%), radial-gradient(circle 100vw at right center, rgba(0, 136, 160, .4) 0, rgba(0, 136, 160, 0) 100%);
-    background-size: 100vw 100vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw, 100vw 200vw;
-    background-position: 0 0, 100% 0, top 100vh left, top 200vh right, top 300vh left, top 400vh right, top 500vh left, top 600vh right, top 700vh left, top 800vh right, top 900vh left, top 1000vh right, top 1100vh left, top 1200vh right, top 1300vh left, top 1400vh right, top 1500vh left, top 1600vh right, top 1700vh left, top 1800vh right, top 1900vh left, top 2000vh right, top 2100vh left, top 2200vh right, top 2300vh left, top 2400vh right, top 2500vh left, top 2600vh right;
-    background-repeat: no-repeat;
+body{
+    background-color:#102227;
+    background-image:-o-radial-gradient(left top,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),-o-radial-gradient(left center,circle 100vw,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),-o-radial-gradient(right center,circle 100vw,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%);
+    background-image:radial-gradient(circle 100vw at left top,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%);
+    background-size:100vw 100vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw,100vw 200vw;
+    background-position:0 0,100% 0,top 100vh left,top 200vh right,top 300vh left,top 400vh right,top 500vh left,top 600vh right,top 700vh left,top 800vh right,top 900vh left,top 1000vh right,top 1100vh left,top 1200vh right,top 1300vh left,top 1400vh right,top 1500vh left,top 1600vh right,top 1700vh left,top 1800vh right,top 1900vh left,top 2000vh right,top 2100vh left,top 2200vh right,top 2300vh left,top 2400vh right,top 2500vh left,top 2600vh right;
+    background-repeat:no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    }
+
+header{
+    width: 100%;
+    height: 33vw;
 }
+main{
+    height: 100vw;
+}    
+
+footer{
+    height: 30vw;
+}    
+
+.container{
+    margin: 0 5vw;
+    border: 1px solid white;
+}    
+
+.header {
+    position: absolute;
+    left: 50%;
+    top: 3em;
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 1em;
+    color: white;
+}
+
+.header :first-child{
+    font-size: 8vw;
+    margin-bottom: 0;
+   
+}
+.header :nth-child(2){
+    font-size: 8vw;
+    margin-top: 0;
+    margin-left: 14vw;
+   
+}
+
+p{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+/***********************************************************/
+
+        /* ================ Slider ================ */
+
+/***********************************************************/
+
+
 
 #slider {
     display: block;
-    height: 350px;
-    width: 100%;
+    height: 450px;
+    width: 99%;
     margin: auto;
-    overflow: hidden;
     margin-top: 60px;
     position: relative;
 }
@@ -30,7 +89,7 @@ body {
     position: relative;
 }
 
-#slider #slides>div {
+#slider #slides > div {
     list-style: none;
     height: 100%;
     width: 500%;
@@ -42,21 +101,21 @@ body {
     /* Set 3D perspective since we're using 3D transforms */
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-    -webkit-perspective: 600px;
-    -moz-perspective: 600px;
+    -webkit-perspective: 600px; 
+    -moz-perspective: 600px; 
     perspective: 600px;
-    -webkit-perspective-origin: 10% 50%;
-    -moz-perspective-origin: 10% 50%;
+    -webkit-perspective-origin: 10% 50%; 
+    -moz-perspective-origin: 10% 50%; 
     perspective-origin: 10% 50%;
 }
 
-#slides>div>span {
+#slides > div > span {
     /* Run the tranistions */
     -webkit-transition: all 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530);
     -moz-transition: all 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530);
     -o-transition: all 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530);
     transition: all 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530);
-    height: 320px;
+    height: 300px;
     width: 5%;
     float: left;
     border-radius: 5px;
@@ -65,7 +124,7 @@ body {
     display: block;
     position: relative;
     font-size: 1.6em;
-    top: 20px;
+    /*top: 20px;*/
     z-index: 1;
 }
 
@@ -74,53 +133,36 @@ body {
     display: none;
 }
 
-#slider #slides>div>span>img {
+#slider #slides > div > span > img {
     margin: auto;
     height: 100%;
 }
 
-/* Style the arrows so they look nice! */
+/* Styled arrows, so they look nice! */
 #slider .arrows {
-    font-size: 15px;
     color: #fff;
     position: absolute;
-    top: 290px;
+    top: 22vw;
     display: none;
     cursor: pointer;
-    font-family: Arial, sans-serif;
     z-index: 9999;
-    width: 29px;
-    height: 25px;
-    border-radius: 32px;
+    width: 45px;
+    height: 40px;
+    border-radius: 40px;
     text-align: center;
-    padding: 7px 0 0 3px;
-    background: black;
-    box-shadow: 0 0 20px rgba(200, 235, 248, 0.98), inset 0px 11px 24px -8px rgba(255, 255, 255, 0.4);
+    padding: 7px 0 0 3px;    
+    border: 1px solid ;  
+    
 }
 
 #slider .arrows:hover {
-    box-shadow: 0 0 20px rgba(200, 235, 248, 0.98), inset 0px -11px 24px -8px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 20px rgba(200, 235, 248, 0.98);
+    transition: box-shadow .2s;
 }
-
-/* 
-/* The info boxes */
-#slides .info {
-    width: 100%;
-    padding: 20px 20px 25px 20px;
-    position: relative;
-    bottom: 120px;
-    border-radius: 5px 5px 0 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    display: block;
-    -webkit-transition: all 1s 0.2s cubic-bezier(1, 0, 0.6, 1);
-    transition: all 1s 0.2s cubic-bezier(1, 0, 0.6, 1);
-    color: #fff;
-    font-weight: bold;
-    background-color: rgb(30, 30, 30);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    line-height: 30px;
-}
+/* #slider .arrows::hover){
+    box-shadow: 0 0 40px rgba(200, 235, 248, 0.98);
+    transition: box-shadow .2s;
+} */
 
 
 /* This is for positioning the arrows */
@@ -143,7 +185,7 @@ body {
 #button-17:checked~#arrow-18,
 #button-18:checked~#arrow-19,
 #button-19:checked~#arrow-20{
-    right: 27%;
+    right: 37%;
     display: block;
 }
 
@@ -167,132 +209,122 @@ body {
 #button-18:checked~#arrow-17,
 #button-19:checked~#arrow-18,
 #button-20:checked~#arrow-19 {
-    left: 27%;
+    left: 37%;
     display: block;
     -webkit-transform: rotateZ(180deg);
     -o-transform: rotateZ(180deg);
     transform: rotateZ(180deg);
-    box-shadow: 0 0 20px rgba(200, 235, 248, 0.98), inset 0px -11px 24px -8px rgba(255, 255, 255, 0.4);
-}
+    border: 1px solid }
 
-#button-2:checked~#arrow-1:hover,
-#button-3:checked~#arrow-2:hover,
-#button-4:checked~#arrow-3:hover,
-#button-5:checked~#arrow-4:hover,
-#button-6:checked~#arrow-5:hover,
-#button-7:checked~#arrow-6:hover,
-#button-8:checked~#arrow-7:hover,
-#button-9:checked~#arrow-8:hover,
-#button-10:checked~#arrow-9:hover,
-#button-11:checked~#arrow-10:hover,
-#button-12:checked~#arrow-11:hover,
-#button-13:checked~#arrow-12:hover,
-#button-14:checked~#arrow-13:hover,
-#button-15:checked~#arrow-14:hover,
-#button-16:checked~#arrow-15:hover,
-#button-17:checked~#arrow-16:hover,
-#button-18:checked~#arrow-17:hover,
-#button-19:checked~#arrow-18:hover,
-#button-20:checked~#arrow-19:hover
- {
-    box-shadow: 0 0 20px rgba(200, 235, 248, 0.98), inset 0px 11px 24px -8px rgba(255, 255, 255, 0.4);
+    #button-2:checked~#arrow-1:hover,
+    #button-3:checked~#arrow-2:hover,
+    #button-4:checked~#arrow-3:hover,
+    #button-5:checked~#arrow-4:hover,
+    #button-6:checked~#arrow-5:hover,
+    #button-7:checked~#arrow-6:hover,
+    #button-8:checked~#arrow-7:hover,
+    #button-9:checked~#arrow-8:hover,
+    #button-10:checked~#arrow-9:hover,
+    #button-11:checked~#arrow-10:hover,
+    #button-12:checked~#arrow-11:hover,
+    #button-13:checked~#arrow-12:hover,
+    #button-14:checked~#arrow-13:hover,
+    #button-15:checked~#arrow-14:hover,
+    #button-16:checked~#arrow-15:hover,
+    #button-17:checked~#arrow-16:hover,
+    #button-18:checked~#arrow-17:hover,
+    #button-19:checked~#arrow-18:hover,
+    #button-20:checked~#arrow-19:hover{
+        box-shadow: 0 0 20px rgba(200, 235, 248, 0.98);
 }
 
 /* The images used in the slides, feel free to change this */
 #image-1 {
-               background: url("./image1.png");
-     background-size: auto 100%;
+    background: url("../img/image1.png");
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-  
 }
 
 #image-2 {
- background: url("./image2.png");
-     background-size: auto 100%;
+    background: url("../img/image2.png");
+    background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center; 
- 
-  
+    background-position: center;
 }
 
 #image-3 {
-    background: url("./image3.png");
+    background: url("../img/image3.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-   
-  
 }
 
 #image-4 {
-    background: url("./image4.png");
+    background: url("../img/image4.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-  
-    
 }
 
 #image-5 {
-    background: url("./image17.png");
+    background: url("../img/image5.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-   
 }
 
 #image-6 {
-    background: url("./image5.png");
+    background: url("../img/image6.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-7 {
-    background: url("./image6.png");
+    background: url("../img/image7.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-8 {
-    background: url("./image7.png");
+    background: url("../img/image8.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-9 {
-    background: url("./image8.png");
+    background: url("../img/image9.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-10 {
-    background: url("./image9.png");
+    background: url("../img/image10.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-11 {
-    background: url("./image10.png");
+    background: url("../img/image11.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-12 {
-    background: url("./image11.png");
+    background: url("../img/image12.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-13 {
-    background: url("./image12.png");
+    background: url("../img/image13.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -300,563 +332,790 @@ body {
 
 
 #image-14 {
-    background: url("./image13.png");
+    background: url("../img/image14.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-15 {
-    background: url("./image14.png");
+    background: url("../img/image15.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-16 {
-    background: url("./image15.png");
+    background: url("../img/image16.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-17 {
-    background: url("./image16.png");
+    background: url("../img/image17.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #image-18 {
-    background: url("./IMG-2538.JPG");
+    background: url("../img/image18.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #image-19 {
-    background: url("./image16.png");
+    background: url("../img/image19.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #image-20 {
-    background: url("./image16.png");
+    background: url("../img/image20.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 /* The next bit is a bit wordy, but it just positions the slides at either side of the selected slide 
    so we get a cool 3D effect */
-#slider #button-1:checked~#slides>div #image-2,
-#slider #button-1:checked~#slides>div #image-3,
-#slider #button-1:checked~#slides>div #image-4,
-#slider #button-1:checked~#slides>div #image-5,
-#slider #button-1:checked~#slides>div #image-6,
-#slider #button-1:checked~#slides>div #image-7,
-#slider #button-1:checked~#slides>div #image-8,
-#slider #button-1:checked~#slides>div #image-9,
-#slider #button-1:checked~#slides>div #image-10,
-#slider #button-1:checked~#slides>div #image-11,
-#slider #button-1:checked~#slides>div #image-12,
-#slider #button-1:checked~#slides>div #image-13,
-#slider #button-1:checked~#slides>div #image-14,
-#slider #button-1:checked~#slides>div #image-15,
-#slider #button-1:checked~#slides>div #image-16,
-#slider #button-1:checked~#slides>div #image-17,
-#slider #button-1:checked~#slides>div #image-18,
-#slider #button-1:checked~#slides>div #image-19,
-#slider #button-1:checked~#slides>div #image-20,
+   #slider #button-1:checked~#slides>div #image-2,
+   #slider #button-1:checked~#slides>div #image-3,
+   #slider #button-1:checked~#slides>div #image-4,
+   #slider #button-1:checked~#slides>div #image-5,
+   #slider #button-1:checked~#slides>div #image-6,
+   #slider #button-1:checked~#slides>div #image-7,
+   #slider #button-1:checked~#slides>div #image-8,
+   #slider #button-1:checked~#slides>div #image-9,
+   #slider #button-1:checked~#slides>div #image-10,
+   #slider #button-1:checked~#slides>div #image-11,
+   #slider #button-1:checked~#slides>div #image-12,
+   #slider #button-1:checked~#slides>div #image-13,
+   #slider #button-1:checked~#slides>div #image-14,
+   #slider #button-1:checked~#slides>div #image-15,
+   #slider #button-1:checked~#slides>div #image-16,
+   #slider #button-1:checked~#slides>div #image-17,
+   #slider #button-1:checked~#slides>div #image-18,
+   #slider #button-1:checked~#slides>div #image-19,
+   #slider #button-1:checked~#slides>div #image-20,
+   
+   
+   #slider #button-2:checked~#slides>div #image-3,
+   #slider #button-2:checked~#slides>div #image-4,
+   #slider #button-2:checked~#slides>div #image-5,
+   #slider #button-2:checked~#slides>div #image-6,
+   #slider #button-2:checked~#slides>div #image-7,
+   #slider #button-2:checked~#slides>div #image-8,
+   #slider #button-2:checked~#slides>div #image-9,
+   #slider #button-2:checked~#slides>div #image-10,
+   #slider #button-2:checked~#slides>div #image-11,
+   #slider #button-2:checked~#slides>div #image-12,
+   #slider #button-2:checked~#slides>div #image-13,
+   #slider #button-2:checked~#slides>div #image-14,
+   #slider #button-2:checked~#slides>div #image-15,
+   #slider #button-2:checked~#slides>div #image-16,
+   #slider #button-2:checked~#slides>div #image-17,
+   #slider #button-2:checked~#slides>div #image-18,
+   #slider #button-2:checked~#slides>div #image-19,
+   #slider #button-2:checked~#slides>div #image-20,
+   
+   
+   
+   #slider #button-3:checked~#slides>div #image-4,
+   #slider #button-3:checked~#slides>div #image-5,
+   #slider #button-3:checked~#slides>div #image-6,
+   #slider #button-3:checked~#slides>div #image-7,
+   #slider #button-3:checked~#slides>div #image-8,
+   #slider #button-3:checked~#slides>div #image-9,
+   #slider #button-3:checked~#slides>div #image-10,
+   #slider #button-3:checked~#slides>div #image-11,
+   #slider #button-3:checked~#slides>div #image-12,
+   #slider #button-3:checked~#slides>div #image-13,
+   #slider #button-3:checked~#slides>div #image-14,
+   #slider #button-3:checked~#slides>div #image-15,
+   #slider #button-3:checked~#slides>div #image-16,
+   #slider #button-3:checked~#slides>div #image-17,
+   #slider #button-3:checked~#slides>div #image-18,
+   #slider #button-3:checked~#slides>div #image-19,
+   #slider #button-3:checked~#slides>div #image-20,
+   
+   
+   
+   #slider #button-4:checked~#slides>div #image-5,
+   #slider #button-4:checked~#slides>div #image-6,
+   #slider #button-4:checked~#slides>div #image-7,
+   #slider #button-4:checked~#slides>div #image-8,
+   #slider #button-4:checked~#slides>div #image-9,
+   #slider #button-4:checked~#slides>div #image-10,
+   #slider #button-4:checked~#slides>div #image-11,
+   #slider #button-4:checked~#slides>div #image-12,
+   #slider #button-4:checked~#slides>div #image-13,
+   #slider #button-4:checked~#slides>div #image-14,
+   #slider #button-4:checked~#slides>div #image-15,
+   #slider #button-4:checked~#slides>div #image-16,
+   #slider #button-4:checked~#slides>div #image-17,
+   #slider #button-4:checked~#slides>div #image-18,
+   #slider #button-4:checked~#slides>div #image-19,
+   #slider #button-4:checked~#slides>div #image-20,
+   
+   
+   #slider #button-5:checked~#slides>div #image-6,
+   #slider #button-5:checked~#slides>div #image-7,
+   #slider #button-5:checked~#slides>div #image-8,
+   #slider #button-5:checked~#slides>div #image-9,
+   #slider #button-5:checked~#slides>div #image-10,
+   #slider #button-5:checked~#slides>div #image-11,
+   #slider #button-5:checked~#slides>div #image-12,
+   #slider #button-5:checked~#slides>div #image-13,
+   #slider #button-5:checked~#slides>div #image-14,
+   #slider #button-5:checked~#slides>div #image-15,
+   #slider #button-5:checked~#slides>div #image-16,
+   #slider #button-5:checked~#slides>div #image-17,
+   #slider #button-5:checked~#slides>div #image-18,
+   #slider #button-5:checked~#slides>div #image-19,
+   #slider #button-5:checked~#slides>div #image-20,
+   
+   #slider #button-6:checked~#slides>div #image-7,
+   #slider #button-6:checked~#slides>div #image-8,
+   #slider #button-6:checked~#slides>div #image-9,
+   #slider #button-6:checked~#slides>div #image-10,
+   #slider #button-6:checked~#slides>div #image-11,
+   #slider #button-6:checked~#slides>div #image-12,
+   #slider #button-6:checked~#slides>div #image-13,
+   #slider #button-6:checked~#slides>div #image-14,
+   #slider #button-6:checked~#slides>div #image-15,
+   #slider #button-6:checked~#slides>div #image-16,
+   #slider #button-6:checked~#slides>div #image-17,
+   #slider #button-6:checked~#slides>div #image-18,
+   #slider #button-6:checked~#slides>div #image-19,
+   #slider #button-6:checked~#slides>div #image-20,
+   
+   #slider #button-7:checked~#slides>div #image-8,
+   #slider #button-7:checked~#slides>div #image-9,
+   #slider #button-7:checked~#slides>div #image-10,
+   #slider #button-7:checked~#slides>div #image-11,
+   #slider #button-7:checked~#slides>div #image-12,
+   #slider #button-7:checked~#slides>div #image-13,
+   #slider #button-7:checked~#slides>div #image-14,
+   #slider #button-7:checked~#slides>div #image-15,
+   #slider #button-7:checked~#slides>div #image-16,
+   #slider #button-7:checked~#slides>div #image-17,
+   #slider #button-7:checked~#slides>div #image-18,
+   #slider #button-7:checked~#slides>div #image-19,
+   #slider #button-7:checked~#slides>div #image-20,
+   
+   #slider #button-8:checked~#slides>div #image-9,
+   #slider #button-8:checked~#slides>div #image-10,
+   #slider #button-8:checked~#slides>div #image-11,
+   #slider #button-8:checked~#slides>div #image-12,
+   #slider #button-8:checked~#slides>div #image-13,
+   #slider #button-8:checked~#slides>div #image-14,
+   #slider #button-8:checked~#slides>div #image-15,
+   #slider #button-8:checked~#slides>div #image-16,
+   #slider #button-8:checked~#slides>div #image-17,
+   #slider #button-8:checked~#slides>div #image-18,
+   #slider #button-8:checked~#slides>div #image-19,
+   #slider #button-8:checked~#slides>div #image-20,
+   
+   #slider #button-9:checked~#slides>div #image-10,
+   #slider #button-9:checked~#slides>div #image-11,
+   #slider #button-9:checked~#slides>div #image-12,
+   #slider #button-9:checked~#slides>div #image-13,
+   #slider #button-9:checked~#slides>div #image-14,
+   #slider #button-9:checked~#slides>div #image-15,
+   #slider #button-9:checked~#slides>div #image-16,
+   #slider #button-9:checked~#slides>div #image-17,
+   #slider #button-9:checked~#slides>div #image-18,
+   #slider #button-9:checked~#slides>div #image-19,
+   #slider #button-9:checked~#slides>div #image-20,
+   
+   
+   #slider #button-10:checked~#slides>div #image-11,
+   #slider #button-10:checked~#slides>div #image-12,
+   #slider #button-10:checked~#slides>div #image-13,
+   #slider #button-10:checked~#slides>div #image-14,
+   #slider #button-10:checked~#slides>div #image-15,
+   #slider #button-10:checked~#slides>div #image-16,
+   #slider #button-10:checked~#slides>div #image-17,
+   #slider #button-10:checked~#slides>div #image-18,
+   #slider #button-10:checked~#slides>div #image-19,
+   #slider #button-10:checked~#slides>div #image-20,
+   
+   
+   #slider #button-11:checked~#slides>div #image-12,
+   #slider #button-11:checked~#slides>div #image-13,
+   #slider #button-11:checked~#slides>div #image-14,
+   #slider #button-11:checked~#slides>div #image-15,
+   #slider #button-11:checked~#slides>div #image-16,
+   #slider #button-11:checked~#slides>div #image-17,
+   #slider #button-11:checked~#slides>div #image-18,
+   #slider #button-11:checked~#slides>div #image-19,
+   #slider #button-11:checked~#slides>div #image-20,
+   
+   
+   #slider #button-12:checked~#slides>div #image-13,
+   #slider #button-12:checked~#slides>div #image-14,
+   #slider #button-12:checked~#slides>div #image-15,
+   #slider #button-12:checked~#slides>div #image-16,
+   #slider #button-12:checked~#slides>div #image-17,
+   #slider #button-12:checked~#slides>div #image-18,
+   #slider #button-12:checked~#slides>div #image-19,
+   #slider #button-12:checked~#slides>div #image-20,
+   
+   
+   #slider #button-13:checked~#slides>div #image-14,
+   #slider #button-13:checked~#slides>div #image-15,
+   #slider #button-13:checked~#slides>div #image-16,
+   #slider #button-13:checked~#slides>div #image-17,
+   #slider #button-13:checked~#slides>div #image-18,
+   #slider #button-13:checked~#slides>div #image-19,
+   #slider #button-13:checked~#slides>div #image-20,
+   
+   
+   #slider #button-14:checked~#slides>div #image-15,
+   #slider #button-14:checked~#slides>div #image-16,
+   #slider #button-14:checked~#slides>div #image-17,
+   #slider #button-14:checked~#slides>div #image-18,
+   #slider #button-14:checked~#slides>div #image-19,
+   #slider #button-14:checked~#slides>div #image-20,
+   
+   
+   #slider #button-15:checked~#slides>div #image-16,
+   #slider #button-15:checked~#slides>div #image-17,
+   #slider #button-15:checked~#slides>div #image-18,
+   #slider #button-15:checked~#slides>div #image-19,
+   #slider #button-15:checked~#slides>div #image-20,
+   
+   
+   #slider #button-16:checked~#slides>div #image-17,
+   #slider #button-16:checked~#slides>div #image-18,
+   #slider #button-16:checked~#slides>div #image-19,
+   #slider #button-16:checked~#slides>div #image-20,
+   
+   
+   #slider #button-17:checked~#slides>div #image-18 #slider #button-17:checked~#slides>div #image-19,
+   #slider #button-17:checked~#slides>div #image-20,
+   
+   
+   #slider #button-18:checked~#slides>div #image-19,
+   #slider #button-18:checked~#slides>div #image-20,
+   
+   
+   #slider #button-19:checked~#slides>div #image-20 {
+       -webkit-transform: rotateY(-10deg) scale(0.8) translateX(-10%);
+       transform: rotateY(-10deg) scale(0.8) translateX(-10%);
+       z-index: 0;
+   }
+   
+   #slider #button-2:checked~#slides>div #image-1,
+
+   #slider #button-3:checked~#slides>div #image-2,
+   #slider #button-3:checked~#slides>div #image-1,
+
+   #slider #button-4:checked~#slides>div #image-3,
+   #slider #button-4:checked~#slides>div #image-2,
+   #slider #button-4:checked~#slides>div #image-1,
+
+   #slider #button-5:checked~#slides>div #image-4,
+   #slider #button-5:checked~#slides>div #image-3,
+   #slider #button-5:checked~#slides>div #image-2,
+   #slider #button-5:checked~#slides>div #image-1,
+
+   #slider #button-6:checked~#slides>div #image-5,
+   #slider #button-6:checked~#slides>div #image-4,
+   #slider #button-6:checked~#slides>div #image-3,
+   #slider #button-6:checked~#slides>div #image-2,
+   #slider #button-6:checked~#slides>div #image-1,
+
+   #slider #button-7:checked~#slides>div #image-6,
+   #slider #button-7:checked~#slides>div #image-5,
+   #slider #button-7:checked~#slides>div #image-4,
+   #slider #button-7:checked~#slides>div #image-3,
+   #slider #button-7:checked~#slides>div #image-2,
+   #slider #button-7:checked~#slides>div #image-1,
+
+   #slider #button-8:checked~#slides>div #image-7,
+   #slider #button-8:checked~#slides>div #image-6,
+   #slider #button-8:checked~#slides>div #image-5,
+   #slider #button-8:checked~#slides>div #image-4,
+   #slider #button-8:checked~#slides>div #image-3,
+   #slider #button-8:checked~#slides>div #image-2,
+   #slider #button-8:checked~#slides>div #image-1,
+
+   #slider #button-9:checked~#slides>div #image-8,
+   #slider #button-9:checked~#slides>div #image-7,
+   #slider #button-9:checked~#slides>div #image-6,
+   #slider #button-9:checked~#slides>div #image-5,
+   #slider #button-9:checked~#slides>div #image-4,
+   #slider #button-9:checked~#slides>div #image-3,
+   #slider #button-9:checked~#slides>div #image-2,
+   #slider #button-9:checked~#slides>div #image-1,
+
+   #slider #button-10:checked~#slides>div #image-9,
+   #slider #button-10:checked~#slides>div #image-8,
+   #slider #button-10:checked~#slides>div #image-7,
+   #slider #button-10:checked~#slides>div #image-6,
+   #slider #button-10:checked~#slides>div #image-5,
+   #slider #button-10:checked~#slides>div #image-4,
+   #slider #button-10:checked~#slides>div #image-3,
+   #slider #button-10:checked~#slides>div #image-2,
+   #slider #button-10:checked~#slides>div #image-1,
+
+   #slider #button-11:checked~#slides>div #image-10,
+   #slider #button-11:checked~#slides>div #image-9,
+   #slider #button-11:checked~#slides>div #image-8,
+   #slider #button-11:checked~#slides>div #image-7,
+   #slider #button-11:checked~#slides>div #image-6,
+   #slider #button-11:checked~#slides>div #image-5,
+   #slider #button-11:checked~#slides>div #image-4,
+   #slider #button-11:checked~#slides>div #image-3,
+   #slider #button-11:checked~#slides>div #image-2,
+   #slider #button-11:checked~#slides>div #image-1,
+
+   #slider #button-12:checked~#slides>div #image-11,
+   #slider #button-12:checked~#slides>div #image-10,
+   #slider #button-12:checked~#slides>div #image-9,
+   #slider #button-12:checked~#slides>div #image-8,
+   #slider #button-12:checked~#slides>div #image-7,
+   #slider #button-12:checked~#slides>div #image-6,
+   #slider #button-12:checked~#slides>div #image-5,
+   #slider #button-12:checked~#slides>div #image-4,
+   #slider #button-12:checked~#slides>div #image-3,
+   #slider #button-12:checked~#slides>div #image-2,
+   #slider #button-12:checked~#slides>div #image-1,
+
+   #slider #button-13:checked~#slides>div #image-12,
+   #slider #button-13:checked~#slides>div #image-11,
+   #slider #button-13:checked~#slides>div #image-10,
+   #slider #button-13:checked~#slides>div #image-9,
+   #slider #button-13:checked~#slides>div #image-8,
+   #slider #button-13:checked~#slides>div #image-7,
+   #slider #button-13:checked~#slides>div #image-6,
+   #slider #button-13:checked~#slides>div #image-5,
+   #slider #button-13:checked~#slides>div #image-4,
+   #slider #button-13:checked~#slides>div #image-3,
+   #slider #button-13:checked~#slides>div #image-2,
+   #slider #button-13:checked~#slides>div #image-1,
+
+   #slider #button-14:checked~#slides>div #image-13,
+   #slider #button-14:checked~#slides>div #image-12,
+   #slider #button-14:checked~#slides>div #image-11,
+   #slider #button-14:checked~#slides>div #image-10,
+   #slider #button-14:checked~#slides>div #image-9,
+   #slider #button-14:checked~#slides>div #image-8,
+   #slider #button-14:checked~#slides>div #image-7,
+   #slider #button-14:checked~#slides>div #image-6,
+   #slider #button-14:checked~#slides>div #image-5,
+   #slider #button-14:checked~#slides>div #image-4,
+   #slider #button-14:checked~#slides>div #image-3,
+   #slider #button-14:checked~#slides>div #image-2,
+   #slider #button-14:checked~#slides>div #image-1,
+
+   #slider #button-15:checked~#slides>div #image-14,
+   #slider #button-15:checked~#slides>div #image-13,
+   #slider #button-15:checked~#slides>div #image-12,
+   #slider #button-15:checked~#slides>div #image-11,
+   #slider #button-15:checked~#slides>div #image-10,
+   #slider #button-15:checked~#slides>div #image-9,
+   #slider #button-15:checked~#slides>div #image-8,
+   #slider #button-15:checked~#slides>div #image-7,
+   #slider #button-15:checked~#slides>div #image-6,
+   #slider #button-15:checked~#slides>div #image-5,
+   #slider #button-15:checked~#slides>div #image-4,
+   #slider #button-15:checked~#slides>div #image-3,
+   #slider #button-15:checked~#slides>div #image-2,
+   #slider #button-15:checked~#slides>div #image-1,
+
+   #slider #button-16:checked~#slides>div #image-15,
+   #slider #button-16:checked~#slides>div #image-14,
+   #slider #button-16:checked~#slides>div #image-13,
+   #slider #button-16:checked~#slides>div #image-12,
+   #slider #button-16:checked~#slides>div #image-11,
+   #slider #button-16:checked~#slides>div #image-10,
+   #slider #button-16:checked~#slides>div #image-9,
+   #slider #button-16:checked~#slides>div #image-8,
+   #slider #button-16:checked~#slides>div #image-7,
+   #slider #button-16:checked~#slides>div #image-6,
+   #slider #button-16:checked~#slides>div #image-5,
+   #slider #button-16:checked~#slides>div #image-4,
+   #slider #button-16:checked~#slides>div #image-3,
+   #slider #button-16:checked~#slides>div #image-2,
+   #slider #button-16:checked~#slides>div #image-1,
+
+   #slider #button-17:checked~#slides>div #image-16,
+   #slider #button-17:checked~#slides>div #image-15,
+   #slider #button-17:checked~#slides>div #image-14,
+   #slider #button-17:checked~#slides>div #image-13,
+   #slider #button-17:checked~#slides>div #image-12,
+   #slider #button-17:checked~#slides>div #image-11,
+   #slider #button-17:checked~#slides>div #image-10,
+   #slider #button-17:checked~#slides>div #image-9,
+   #slider #button-17:checked~#slides>div #image-8,
+   #slider #button-17:checked~#slides>div #image-7,
+   #slider #button-17:checked~#slides>div #image-6,
+   #slider #button-17:checked~#slides>div #image-5,
+   #slider #button-17:checked~#slides>div #image-4,
+   #slider #button-17:checked~#slides>div #image-3,
+   #slider #button-17:checked~#slides>div #image-2,
+   #slider #button-17:checked~#slides>div #image-1,
+   
+   #slider #button-18:checked~#slides>div #image-17,
+   #slider #button-18:checked~#slides>div #image-16,
+   #slider #button-18:checked~#slides>div #image-15,
+   #slider #button-18:checked~#slides>div #image-14,
+   #slider #button-18:checked~#slides>div #image-13,
+   #slider #button-18:checked~#slides>div #image-12,
+   #slider #button-18:checked~#slides>div #image-11,
+   #slider #button-18:checked~#slides>div #image-10,
+   #slider #button-18:checked~#slides>div #image-9,
+   #slider #button-18:checked~#slides>div #image-8,
+   #slider #button-18:checked~#slides>div #image-7,
+   #slider #button-18:checked~#slides>div #image-6,
+   #slider #button-18:checked~#slides>div #image-5,
+   #slider #button-18:checked~#slides>div #image-4,
+   #slider #button-18:checked~#slides>div #image-3,
+   #slider #button-18:checked~#slides>div #image-2,
+   #slider #button-18:checked~#slides>div #image-1,
+   
+   #slider #button-19:checked~#slides>div #image-18,
+   #slider #button-19:checked~#slides>div #image-17,
+   #slider #button-19:checked~#slides>div #image-16,
+   #slider #button-19:checked~#slides>div #image-15,
+   #slider #button-19:checked~#slides>div #image-14,
+   #slider #button-19:checked~#slides>div #image-13,
+   #slider #button-19:checked~#slides>div #image-12,
+   #slider #button-19:checked~#slides>div #image-11,
+   #slider #button-19:checked~#slides>div #image-10,
+   #slider #button-19:checked~#slides>div #image-9,
+   #slider #button-19:checked~#slides>div #image-8,
+   #slider #button-19:checked~#slides>div #image-7,
+   #slider #button-19:checked~#slides>div #image-6,
+   #slider #button-19:checked~#slides>div #image-5,
+   #slider #button-19:checked~#slides>div #image-4,
+   #slider #button-19:checked~#slides>div #image-3,
+   #slider #button-19:checked~#slides>div #image-2,
+   #slider #button-19:checked~#slides>div #image-1,
+   
+   #slider #button-20:checked~#slides>div #image-19,
+   #slider #button-20:checked~#slides>div #image-18,
+   #slider #button-20:checked~#slides>div #image-17,
+   #slider #button-20:checked~#slides>div #image-16,
+   #slider #button-20:checked~#slides>div #image-15,
+   #slider #button-20:checked~#slides>div #image-14,
+   #slider #button-20:checked~#slides>div #image-13,
+   #slider #button-20:checked~#slides>div #image-12,
+   #slider #button-20:checked~#slides>div #image-11,
+   #slider #button-20:checked~#slides>div #image-10,
+   #slider #button-20:checked~#slides>div #image-9,
+   #slider #button-20:checked~#slides>div #image-8,
+   #slider #button-20:checked~#slides>div #image-7,
+   #slider #button-20:checked~#slides>div #image-6,
+   #slider #button-20:checked~#slides>div #image-5,
+   #slider #button-20:checked~#slides>div #image-4,
+   #slider #button-20:checked~#slides>div #image-3,
+   #slider #button-20:checked~#slides>div #image-2,
+   #slider #button-20:checked~#slides>div #image-1 {
+       -webkit-transform: rotateY(10deg) scale(0.8) translateX(10%);
+       transform: rotateY(10deg) scale(0.8) translateX(10%);
+       z-index: 0;
+   }
+   
+   
+   
+   /* .. and finally, move the slides into the correct position when the user clicks the arrow, so the right
+      slide is selected */
+   
+   #slider #button-1:checked~#slides>div>span {
+       left: 7.5%
+   }
+   
+   #slider #button-2:checked~#slides>div>span {
+       left: 2.5%
+   }
+   
+   #slider #button-3:checked~#slides>div>span {
+       left: -2.5%
+   }
+   
+   #slider #button-4:checked~#slides>div>span {
+       left: -7.5%
+   }
+   
+   #slider #button-5:checked~#slides>div>span {
+       left: -12.5%
+   }
+   
+   
+   #slider #button-6:checked~#slides>div>span {
+   
+       left: -17.5%
+   }
+   
+   #slider #button-7:checked~#slides>div>span {
+       left: -22.5%
+   }
+   
+   #slider #button-8:checked~#slides>div>span {
+       left: -27.5%
+   }
+   
+   #slider #button-9:checked~#slides>div>span {
+       left: -32.5%
+   }
+   
+   #slider #button-10:checked~#slides>div>span {
+       left: -37.5%
+   }
+   
+   #slider #button-11:checked~#slides>div>span {
+       left: -42.5%
+   }
+   
+   #slider #button-12:checked~#slides>div>span {
+       left: -47.5%
+   }
+   
+   #slider #button-13:checked~#slides>div>span {
+       left: -52.5%
+   }
+   
+   #slider #button-14:checked~#slides>div>span {
+       left: -57.5%
+   }
+   
+   #slider #button-15:checked~#slides>div>span {
+       left: -62.5%
+   }
+   
+   #slider #button-16:checked~#slides>div>span {
+       left: -67.5%
+   }
+   
+   #slider #button-17:checked~#slides>div>span {
+       left: -72.5%
+   }
+   
+   #slider #button-18:checked~#slides>div>span {
+       left: -77.5%
+   }
+   
+   #slider #button-19:checked~#slides>div>span {
+       left: -82.5%
+   }
+   
+   #slider #button-20:checked~#slides>div>span {
+       left: -87.5%
+   }
 
 
-#slider #button-2:checked~#slides>div #image-3,
-#slider #button-2:checked~#slides>div #image-4,
-#slider #button-2:checked~#slides>div #image-5,
-#slider #button-2:checked~#slides>div #image-6,
-#slider #button-2:checked~#slides>div #image-7,
-#slider #button-2:checked~#slides>div #image-8,
-#slider #button-2:checked~#slides>div #image-9,
-#slider #button-2:checked~#slides>div #image-10,
-#slider #button-2:checked~#slides>div #image-11,
-#slider #button-2:checked~#slides>div #image-12,
-#slider #button-2:checked~#slides>div #image-13,
-#slider #button-2:checked~#slides>div #image-14,
-#slider #button-2:checked~#slides>div #image-15,
-#slider #button-2:checked~#slides>div #image-16,
-#slider #button-2:checked~#slides>div #image-17,
-#slider #button-2:checked~#slides>div #image-18,
-#slider #button-2:checked~#slides>div #image-19,
-#slider #button-2:checked~#slides>div #image-20,
+/***********************************************************/
 
+        /* ================ Content ================ */
 
+/***********************************************************/        
 
-#slider #button-3:checked~#slides>div #image-4,
-#slider #button-3:checked~#slides>div #image-5,
-#slider #button-3:checked~#slides>div #image-6,
-#slider #button-3:checked~#slides>div #image-7,
-#slider #button-3:checked~#slides>div #image-8,
-#slider #button-3:checked~#slides>div #image-9,
-#slider #button-3:checked~#slides>div #image-10,
-#slider #button-3:checked~#slides>div #image-11,
-#slider #button-3:checked~#slides>div #image-12,
-#slider #button-3:checked~#slides>div #image-13,
-#slider #button-3:checked~#slides>div #image-14,
-#slider #button-3:checked~#slides>div #image-15,
-#slider #button-3:checked~#slides>div #image-16,
-#slider #button-3:checked~#slides>div #image-17,
-#slider #button-3:checked~#slides>div #image-18,
-#slider #button-3:checked~#slides>div #image-19,
-#slider #button-3:checked~#slides>div #image-20,
+.content{
+    position: absolute;
+    left: 50%;
+    top: 33vw;
+    width: 70%;
+    height: 300px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+}    
 
+.content input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+    
+}    
 
-
-#slider #button-4:checked~#slides>div #image-5,
-#slider #button-4:checked~#slides>div #image-6,
-#slider #button-4:checked~#slides>div #image-7,
-#slider #button-4:checked~#slides>div #image-8,
-#slider #button-4:checked~#slides>div #image-9,
-#slider #button-4:checked~#slides>div #image-10,
-#slider #button-4:checked~#slides>div #image-11,
-#slider #button-4:checked~#slides>div #image-12,
-#slider #button-4:checked~#slides>div #image-13,
-#slider #button-4:checked~#slides>div #image-14,
-#slider #button-4:checked~#slides>div #image-15,
-#slider #button-4:checked~#slides>div #image-16,
-#slider #button-4:checked~#slides>div #image-17,
-#slider #button-4:checked~#slides>div #image-18,
-#slider #button-4:checked~#slides>div #image-19,
-#slider #button-4:checked~#slides>div #image-20,
-
-
-#slider #button-5:checked~#slides>div #image-6,
-#slider #button-5:checked~#slides>div #image-7,
-#slider #button-5:checked~#slides>div #image-8,
-#slider #button-5:checked~#slides>div #image-9,
-#slider #button-5:checked~#slides>div #image-10,
-#slider #button-5:checked~#slides>div #image-11,
-#slider #button-5:checked~#slides>div #image-12,
-#slider #button-5:checked~#slides>div #image-13,
-#slider #button-5:checked~#slides>div #image-14,
-#slider #button-5:checked~#slides>div #image-15,
-#slider #button-5:checked~#slides>div #image-16,
-#slider #button-5:checked~#slides>div #image-17,
-#slider #button-5:checked~#slides>div #image-18,
-#slider #button-5:checked~#slides>div #image-19,
-#slider #button-5:checked~#slides>div #image-20,
-
-#slider #button-6:checked~#slides>div #image-7,
-#slider #button-6:checked~#slides>div #image-8,
-#slider #button-6:checked~#slides>div #image-9,
-#slider #button-6:checked~#slides>div #image-10,
-#slider #button-6:checked~#slides>div #image-11,
-#slider #button-6:checked~#slides>div #image-12,
-#slider #button-6:checked~#slides>div #image-13,
-#slider #button-6:checked~#slides>div #image-14,
-#slider #button-6:checked~#slides>div #image-15,
-#slider #button-6:checked~#slides>div #image-16,
-#slider #button-6:checked~#slides>div #image-17,
-#slider #button-6:checked~#slides>div #image-18,
-#slider #button-6:checked~#slides>div #image-19,
-#slider #button-6:checked~#slides>div #image-20,
-
-#slider #button-7:checked~#slides>div #image-8,
-#slider #button-7:checked~#slides>div #image-9,
-#slider #button-7:checked~#slides>div #image-10,
-#slider #button-7:checked~#slides>div #image-11,
-#slider #button-7:checked~#slides>div #image-12,
-#slider #button-7:checked~#slides>div #image-13,
-#slider #button-7:checked~#slides>div #image-14,
-#slider #button-7:checked~#slides>div #image-15,
-#slider #button-7:checked~#slides>div #image-16,
-#slider #button-7:checked~#slides>div #image-17,
-#slider #button-7:checked~#slides>div #image-18,
-#slider #button-7:checked~#slides>div #image-19,
-#slider #button-7:checked~#slides>div #image-20,
-
-#slider #button-8:checked~#slides>div #image-9,
-#slider #button-8:checked~#slides>div #image-10,
-#slider #button-8:checked~#slides>div #image-11,
-#slider #button-8:checked~#slides>div #image-12,
-#slider #button-8:checked~#slides>div #image-13,
-#slider #button-8:checked~#slides>div #image-14,
-#slider #button-8:checked~#slides>div #image-15,
-#slider #button-8:checked~#slides>div #image-16,
-#slider #button-8:checked~#slides>div #image-17,
-#slider #button-8:checked~#slides>div #image-18,
-#slider #button-8:checked~#slides>div #image-19,
-#slider #button-8:checked~#slides>div #image-20,
-
-#slider #button-9:checked~#slides>div #image-10,
-#slider #button-9:checked~#slides>div #image-11,
-#slider #button-9:checked~#slides>div #image-12,
-#slider #button-9:checked~#slides>div #image-13,
-#slider #button-9:checked~#slides>div #image-14,
-#slider #button-9:checked~#slides>div #image-15,
-#slider #button-9:checked~#slides>div #image-16,
-#slider #button-9:checked~#slides>div #image-17,
-#slider #button-9:checked~#slides>div #image-18,
-#slider #button-9:checked~#slides>div #image-19,
-#slider #button-9:checked~#slides>div #image-20,
-
-
-#slider #button-10:checked~#slides>div #image-11,
-#slider #button-10:checked~#slides>div #image-12,
-#slider #button-10:checked~#slides>div #image-13,
-#slider #button-10:checked~#slides>div #image-14,
-#slider #button-10:checked~#slides>div #image-15,
-#slider #button-10:checked~#slides>div #image-16,
-#slider #button-10:checked~#slides>div #image-17,
-#slider #button-10:checked~#slides>div #image-18,
-#slider #button-10:checked~#slides>div #image-19,
-#slider #button-10:checked~#slides>div #image-20,
-
-
-#slider #button-11:checked~#slides>div #image-12,
-#slider #button-11:checked~#slides>div #image-13,
-#slider #button-11:checked~#slides>div #image-14,
-#slider #button-11:checked~#slides>div #image-15,
-#slider #button-11:checked~#slides>div #image-16,
-#slider #button-11:checked~#slides>div #image-17,
-#slider #button-11:checked~#slides>div #image-18,
-#slider #button-11:checked~#slides>div #image-19,
-#slider #button-11:checked~#slides>div #image-20,
-
-
-#slider #button-12:checked~#slides>div #image-13,
-#slider #button-12:checked~#slides>div #image-14,
-#slider #button-12:checked~#slides>div #image-15,
-#slider #button-12:checked~#slides>div #image-16,
-#slider #button-12:checked~#slides>div #image-17,
-#slider #button-12:checked~#slides>div #image-18,
-#slider #button-12:checked~#slides>div #image-19,
-#slider #button-12:checked~#slides>div #image-20,
-
-
-#slider #button-13:checked~#slides>div #image-14,
-#slider #button-13:checked~#slides>div #image-15,
-#slider #button-13:checked~#slides>div #image-16,
-#slider #button-13:checked~#slides>div #image-17,
-#slider #button-13:checked~#slides>div #image-18,
-#slider #button-13:checked~#slides>div #image-19,
-#slider #button-13:checked~#slides>div #image-20,
-
-
-#slider #button-14:checked~#slides>div #image-15,
-#slider #button-14:checked~#slides>div #image-16,
-#slider #button-14:checked~#slides>div #image-17,
-#slider #button-14:checked~#slides>div #image-18,
-#slider #button-14:checked~#slides>div #image-19,
-#slider #button-14:checked~#slides>div #image-20,
-
-
-#slider #button-15:checked~#slides>div #image-16,
-#slider #button-15:checked~#slides>div #image-17,
-#slider #button-15:checked~#slides>div #image-18,
-#slider #button-15:checked~#slides>div #image-19,
-#slider #button-15:checked~#slides>div #image-20,
-
-
-#slider #button-16:checked~#slides>div #image-17,
-#slider #button-16:checked~#slides>div #image-18,
-#slider #button-16:checked~#slides>div #image-19,
-#slider #button-16:checked~#slides>div #image-20,
-
-
-#slider #button-17:checked~#slides>div #image-18 #slider #button-17:checked~#slides>div #image-19,
-#slider #button-17:checked~#slides>div #image-20,
-
-
-#slider #button-18:checked~#slides>div #image-19,
-#slider #button-18:checked~#slides>div #image-20,
-
-
-#slider #button-19:checked~#slides>div #image-20 {
-    -webkit-transform: rotateY(-10deg) scale(0.8) translateX(-10%);
-    transform: rotateY(-10deg) scale(0.8) translateX(-10%);
-    z-index: 0;
+.content label{
+    transition: .8s;
+    transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    color: white;
+    cursor: pointer;
+}    
+.content label h3{
+border: .5px solid #fff;
 }
 
-#slider #button-2:checked~#slides>div #image-1,
-#slider #button-3:checked~#slides>div #image-2,
-#slider #button-3:checked~#slides>div #image-1,
-#slider #button-4:checked~#slides>div #image-3,
-#slider #button-4:checked~#slides>div #image-2,
-#slider #button-4:checked~#slides>div #image-1,
-#slider #button-5:checked~#slides>div #image-4,
-#slider #button-5:checked~#slides>div #image-3,
-#slider #button-5:checked~#slides>div #image-2,
-#slider #button-5:checked~#slides>div #image-1,
-#slider #button-6:checked~#slides>div #image-5,
-#slider #button-6:checked~#slides>div #image-4,
-#slider #button-6:checked~#slides>div #image-3,
-#slider #button-6:checked~#slides>div #image-2,
-#slider #button-6:checked~#slides>div #image-1,
-#slider #button-7:checked~#slides>div #image-6,
-#slider #button-7:checked~#slides>div #image-5,
-#slider #button-7:checked~#slides>div #image-4,
-#slider #button-7:checked~#slides>div #image-3,
-#slider #button-7:checked~#slides>div #image-2,
-#slider #button-7:checked~#slides>div #image-1,
-#slider #button-8:checked~#slides>div #image-7,
-#slider #button-8:checked~#slides>div #image-6,
-#slider #button-8:checked~#slides>div #image-5,
-#slider #button-8:checked~#slides>div #image-4,
-#slider #button-8:checked~#slides>div #image-3,
-#slider #button-8:checked~#slides>div #image-2,
-#slider #button-8:checked~#slides>div #image-1,
-#slider #button-9:checked~#slides>div #image-8,
-#slider #button-9:checked~#slides>div #image-7,
-#slider #button-9:checked~#slides>div #image-6,
-#slider #button-9:checked~#slides>div #image-5,
-#slider #button-9:checked~#slides>div #image-4,
-#slider #button-9:checked~#slides>div #image-3,
-#slider #button-9:checked~#slides>div #image-2,
-#slider #button-9:checked~#slides>div #image-1,
-#slider #button-10:checked~#slides>div #image-9,
-#slider #button-10:checked~#slides>div #image-8,
-#slider #button-10:checked~#slides>div #image-7,
-#slider #button-10:checked~#slides>div #image-6,
-#slider #button-10:checked~#slides>div #image-5,
-#slider #button-10:checked~#slides>div #image-4,
-#slider #button-10:checked~#slides>div #image-3,
-#slider #button-10:checked~#slides>div #image-2,
-#slider #button-10:checked~#slides>div #image-1,
-#slider #button-11:checked~#slides>div #image-10,
-#slider #button-11:checked~#slides>div #image-9,
-#slider #button-11:checked~#slides>div #image-8,
-#slider #button-11:checked~#slides>div #image-7,
-#slider #button-11:checked~#slides>div #image-6,
-#slider #button-11:checked~#slides>div #image-5,
-#slider #button-11:checked~#slides>div #image-4,
-#slider #button-11:checked~#slides>div #image-3,
-#slider #button-11:checked~#slides>div #image-2,
-#slider #button-11:checked~#slides>div #image-1,
-#slider #button-12:checked~#slides>div #image-11,
-#slider #button-12:checked~#slides>div #image-10,
-#slider #button-12:checked~#slides>div #image-9,
-#slider #button-12:checked~#slides>div #image-8,
-#slider #button-12:checked~#slides>div #image-7,
-#slider #button-12:checked~#slides>div #image-6,
-#slider #button-12:checked~#slides>div #image-5,
-#slider #button-12:checked~#slides>div #image-4,
-#slider #button-12:checked~#slides>div #image-3,
-#slider #button-12:checked~#slides>div #image-2,
-#slider #button-12:checked~#slides>div #image-1,
-#slider #button-13:checked~#slides>div #image-12,
-#slider #button-13:checked~#slides>div #image-11,
-#slider #button-13:checked~#slides>div #image-10,
-#slider #button-13:checked~#slides>div #image-9,
-#slider #button-13:checked~#slides>div #image-8,
-#slider #button-13:checked~#slides>div #image-7,
-#slider #button-13:checked~#slides>div #image-6,
-#slider #button-13:checked~#slides>div #image-5,
-#slider #button-13:checked~#slides>div #image-4,
-#slider #button-13:checked~#slides>div #image-3,
-#slider #button-13:checked~#slides>div #image-2,
-#slider #button-13:checked~#slides>div #image-1,
-#slider #button-14:checked~#slides>div #image-13,
-#slider #button-14:checked~#slides>div #image-12,
-#slider #button-14:checked~#slides>div #image-11,
-#slider #button-14:checked~#slides>div #image-10,
-#slider #button-14:checked~#slides>div #image-9,
-#slider #button-14:checked~#slides>div #image-8,
-#slider #button-14:checked~#slides>div #image-7,
-#slider #button-14:checked~#slides>div #image-6,
-#slider #button-14:checked~#slides>div #image-5,
-#slider #button-14:checked~#slides>div #image-4,
-#slider #button-14:checked~#slides>div #image-3,
-#slider #button-14:checked~#slides>div #image-2,
-#slider #button-14:checked~#slides>div #image-1,
-#slider #button-15:checked~#slides>div #image-14,
-#slider #button-15:checked~#slides>div #image-13,
-#slider #button-15:checked~#slides>div #image-12,
-#slider #button-15:checked~#slides>div #image-11,
-#slider #button-15:checked~#slides>div #image-10,
-#slider #button-15:checked~#slides>div #image-9,
-#slider #button-15:checked~#slides>div #image-8,
-#slider #button-15:checked~#slides>div #image-7,
-#slider #button-15:checked~#slides>div #image-6,
-#slider #button-15:checked~#slides>div #image-5,
-#slider #button-15:checked~#slides>div #image-4,
-#slider #button-15:checked~#slides>div #image-3,
-#slider #button-15:checked~#slides>div #image-2,
-#slider #button-15:checked~#slides>div #image-1,
-#slider #button-16:checked~#slides>div #image-15,
-#slider #button-16:checked~#slides>div #image-14,
-#slider #button-16:checked~#slides>div #image-13,
-#slider #button-16:checked~#slides>div #image-12,
-#slider #button-16:checked~#slides>div #image-11,
-#slider #button-16:checked~#slides>div #image-10,
-#slider #button-16:checked~#slides>div #image-9,
-#slider #button-16:checked~#slides>div #image-8,
-#slider #button-16:checked~#slides>div #image-7,
-#slider #button-16:checked~#slides>div #image-6,
-#slider #button-16:checked~#slides>div #image-5,
-#slider #button-16:checked~#slides>div #image-4,
-#slider #button-16:checked~#slides>div #image-3,
-#slider #button-16:checked~#slides>div #image-2,
-#slider #button-16:checked~#slides>div #image-1,
-#slider #button-17:checked~#slides>div #image-16,
-#slider #button-17:checked~#slides>div #image-15,
-#slider #button-17:checked~#slides>div #image-14,
-#slider #button-17:checked~#slides>div #image-13,
-#slider #button-17:checked~#slides>div #image-12,
-#slider #button-17:checked~#slides>div #image-11,
-#slider #button-17:checked~#slides>div #image-10,
-#slider #button-17:checked~#slides>div #image-9,
-#slider #button-17:checked~#slides>div #image-8,
-#slider #button-17:checked~#slides>div #image-7,
-#slider #button-17:checked~#slides>div #image-6,
-#slider #button-17:checked~#slides>div #image-5,
-#slider #button-17:checked~#slides>div #image-4,
-#slider #button-17:checked~#slides>div #image-3,
-#slider #button-17:checked~#slides>div #image-2,
-#slider #button-17:checked~#slides>div #image-1,
-
-#slider #button-18:checked~#slides>div #image-17,
-#slider #button-18:checked~#slides>div #image-16,
-#slider #button-18:checked~#slides>div #image-15,
-#slider #button-18:checked~#slides>div #image-14,
-#slider #button-18:checked~#slides>div #image-13,
-#slider #button-18:checked~#slides>div #image-12,
-#slider #button-18:checked~#slides>div #image-11,
-#slider #button-18:checked~#slides>div #image-10,
-#slider #button-18:checked~#slides>div #image-9,
-#slider #button-18:checked~#slides>div #image-8,
-#slider #button-18:checked~#slides>div #image-7,
-#slider #button-18:checked~#slides>div #image-6,
-#slider #button-18:checked~#slides>div #image-5,
-#slider #button-18:checked~#slides>div #image-4,
-#slider #button-18:checked~#slides>div #image-3,
-#slider #button-18:checked~#slides>div #image-2,
-#slider #button-18:checked~#slides>div #image-1,
-
-#slider #button-19:checked~#slides>div #image-18,
-#slider #button-19:checked~#slides>div #image-17,
-#slider #button-19:checked~#slides>div #image-16,
-#slider #button-19:checked~#slides>div #image-15,
-#slider #button-19:checked~#slides>div #image-14,
-#slider #button-19:checked~#slides>div #image-13,
-#slider #button-19:checked~#slides>div #image-12,
-#slider #button-19:checked~#slides>div #image-11,
-#slider #button-19:checked~#slides>div #image-10,
-#slider #button-19:checked~#slides>div #image-9,
-#slider #button-19:checked~#slides>div #image-8,
-#slider #button-19:checked~#slides>div #image-7,
-#slider #button-19:checked~#slides>div #image-6,
-#slider #button-19:checked~#slides>div #image-5,
-#slider #button-19:checked~#slides>div #image-4,
-#slider #button-19:checked~#slides>div #image-3,
-#slider #button-19:checked~#slides>div #image-2,
-#slider #button-19:checked~#slides>div #image-1,
-
-#slider #button-20:checked~#slides>div #image-19,
-#slider #button-20:checked~#slides>div #image-18,
-#slider #button-20:checked~#slides>div #image-17,
-#slider #button-20:checked~#slides>div #image-16,
-#slider #button-20:checked~#slides>div #image-15,
-#slider #button-20:checked~#slides>div #image-14,
-#slider #button-20:checked~#slides>div #image-13,
-#slider #button-20:checked~#slides>div #image-12,
-#slider #button-20:checked~#slides>div #image-11,
-#slider #button-20:checked~#slides>div #image-10,
-#slider #button-20:checked~#slides>div #image-9,
-#slider #button-20:checked~#slides>div #image-8,
-#slider #button-20:checked~#slides>div #image-7,
-#slider #button-20:checked~#slides>div #image-6,
-#slider #button-20:checked~#slides>div #image-5,
-#slider #button-20:checked~#slides>div #image-4,
-#slider #button-20:checked~#slides>div #image-3,
-#slider #button-20:checked~#slides>div #image-2,
-#slider #button-20:checked~#slides>div #image-1 {
-    -webkit-transform: rotateY(10deg) scale(0.8) translateX(10%);
-    transform: rotateY(10deg) scale(0.8) translateX(10%);
-    z-index: 0;
+.img1Cont > label.you, .img2Cont > label.you, .img3Cont > label.you, .img4Cont > label.you, .img5Cont > label .you
+.img6Cont > label.you, .img7Cont > label.you, .img8Cont > label.you, .img9Cont > label.you, .img10Cont > label.you
+.img11Cont > label.you, .img12Cont > label.you, .img13Cont > label.you, .img14Cont > label.you, .img15Cont > label.you
+.img16Cont > label.you, .img17Cont > label.you, .img18Cont > label.you, .img19Cont > label.you, .img20Cont > label.you{
+padding: 1em;
 }
 
-
-
-/* .. and finally, move the slides into the correct position when the user clicks the arrow, so the right
-   slide is selected */
-
-#slider #button-1:checked~#slides>div>span {
-    left: 7.5%
+.img1Cont > label.do, .img2Cont > label.do, .img3Cont > label.do, .img4Cont > label.do, .img5Cont > label .do
+.img6Cont > label.do, .img7Cont > label.do, .img8Cont > label.do, .img9Cont > label.do, .img10Cont > label.do
+.img11Cont > label.do, .img12Cont > label.do, .img13Cont > label.do, .img14Cont > label.do, .img15Cont > label.do
+.img16Cont > label.do, .img17Cont > label.do, .img18Cont > label.do, .img19Cont > label.do, .img20Cont > label.do{
+padding: 1em;
 }
 
-#slider #button-2:checked~#slides>div>span {
-    left: 2.5%
+.img1Cont > label.mot, .img2Cont > label.mot, .img3Cont > label.mot, .img4Cont > label.mot, .img5Cont > label .mot
+.img6Cont > label.mot, .img7Cont > label.mot, .img8Cont > label.mot, .img9Cont > label.mot, .img10Cont > label.mot
+.img11Cont > label.mot, .img12Cont > label.mot, .img13Cont > label.mot, .img14Cont > label.mot, .img15Cont > label.mot
+.img16Cont > label.mot, .img17Cont > label.mot, .img18Cont > label.mot, .img19Cont > label.mot, .img20Cont > label.you{
+padding: 1em;
 }
 
-#slider #button-3:checked~#slides>div>span {
-    left: -2.5%
+.you{
+    position: absolute;
+    background-color: rgb(0, 134, 158);
+    opacity: 1;
+    right:200px;
+    height: 280px;
+    width: 100%;
+    transform: translateX(10%);
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}    
+
+.do{
+    position: absolute;
+    opacity: .60;
+    right:140px;
+    background-color: rgb(248, 107, 6);
+    height: 280px;
+    width: 100%;
+    transform: translateX(10%);
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}    
+
+.mot{
+    position: absolute;
+    background-color: rgb(28, 222, 126);
+    opacity: .60;
+    right:80px;
+    height: 280px;
+    width: 100%;
+    transform: translateX(10%);
+    clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}    
+
+.img1Cont > #toggleYou1:checked + .you, .img2Cont > #toggleYou2:checked + .you, 
+.img3Cont > #toggleYou3:checked + .you, .img4Cont > #toggleYou4:checked + .you, 
+.img5Cont > #toggleYou5:checked + .you, .img6Cont > #toggleYou6:checked + .you, 
+.img7Cont > #toggleYou7:checked + .you, .img8Cont > #toggleYou8:checked + .you,
+.img9Cont > #toggleYou9:checked + .you,.img10Cont > #toggleYou10:checked + .you{
+    opacity: 1;
+
+}    
+
+.img1Cont > #toggleYou1:checked ~ .do, .img2Cont > #toggleYou2:checked ~ .do, 
+.img3Cont > #toggleYou3:checked ~ .do, .img4Cont > #toggleYou4:checked ~ .do, 
+.img5Cont > #toggleYou5:checked ~ .do, .img6Cont > #toggleYou6:checked ~ .do, 
+.img7Cont > #toggleYou7:checked ~ .do, .img8Cont > #toggleYou8:checked ~ .do,
+.img9Cont > #toggleYou9:checked ~ .do,.img10Cont > #toggleYou10:checked ~ .do{
+    opacity: .6;
+
+}    
+
+.img1Cont > #toggleYou1:checked ~ .mot, .img2Cont > #toggleYou2:checked ~ .mot, 
+.img3Cont > #toggleYou3:checked ~ .mot, .img4Cont > #toggleYou4:checked ~ .mot, 
+.img5Cont > #toggleYou5:checked ~ .mot, .img6Cont > #toggleYou6:checked ~ .mot, 
+.img7Cont > #toggleYou7:checked ~ .mot, .img8Cont > #toggleYou8:checked ~ .mot,
+.img9Cont > #toggleYou9:checked ~ .mot,.img10Cont > #toggleYou10:checked ~ .mot{
+    opacity: .6;
+
+}    
+
+.img1Cont > #toggleDoing1:checked ~ .you, .img2Cont > #toggleDoing2:checked ~ .you, 
+.img3Cont > #toggleDoing3:checked ~ .you, .img4Cont > #toggleDoing4:checked ~ .you, 
+.img5Cont > #toggleDoing5:checked ~ .you, .img6Cont > #toggleDoing6:checked ~ .you, 
+.img7Cont > #toggleDoing7:checked ~ .you, .img8Cont > #toggleDoing8:checked ~ .you,
+.img9Cont > #toggleDoing9:checked ~ .you,.img10Cont > #toggleDoing10:checked ~ .you{
+    opacity: .6;
+    right: 720px;
+}    
+
+.img1Cont > #toggleDoing1:checked + .do, .img2Cont > #toggleDoing2:checked + .do, 
+.img3Cont > #toggleDoing3:checked + .do, .img4Cont > #toggleDoing4:checked + .do, 
+.img5Cont > #toggleDoing5:checked + .do, .img6Cont > #toggleDoing6:checked + .do, 
+.img7Cont > #toggleDoing7:checked + .do, .img8Cont > #toggleDoing8:checked + .do,
+.img9Cont > #toggleDoing9:checked + .do,.img10Cont > #toggleDoing10:checked + .do{
+    opacity: 1;
+
+}    
+
+.img1Cont > #toggleDoing1:checked ~ .mot, .img2Cont > #toggleDoing2:checked ~ .mot, 
+.img3Cont > #toggleDoing3:checked ~ .mot, .img4Cont > #toggleDoing4:checked ~ .mot, 
+.img5Cont > #toggleDoing5:checked ~ .mot, .img6Cont > #toggleDoing6:checked ~ .mot, 
+.img7Cont > #toggleDoing7:checked ~ .mot, .img8Cont > #toggleDoing8:checked ~ .mot,
+.img9Cont > #toggleDoing9:checked ~ .mot,.img10Cont > #toggleDoing10:checked ~ .mot{
+    opacity: .6;
+}    
+
+.img1Cont > #toggleMot1:checked ~ .you, .img2Cont > #toggleMot2:checked ~ .you, 
+.img3Cont > #toggleMot3:checked ~ .you, .img4Cont > #toggleMot4:checked ~ .you, 
+.img5Cont > #toggleMot5:checked ~ .you, .img6Cont > #toggleMot6:checked ~ .you, 
+.img7Cont > #toggleMot7:checked ~ .you, .img8Cont > #toggleMot8:checked ~ .you,
+.img9Cont > #toggleMot9:checked ~ .you,.img10Cont > #toggleMot10:checked ~ .you{
+    opacity: .6;
+    right: 720px;
+}    
+
+.img1Cont > #toggleMot1:checked ~ .do, .img2Cont > #toggleMot2:checked ~ .do, 
+.img3Cont > #toggleMot3:checked ~ .do, .img4Cont > #toggleMot4:checked ~ .do, 
+.img5Cont > #toggleMot5:checked ~ .do, .img6Cont > #toggleMot6:checked ~ .do, 
+.img7Cont > #toggleMot7:checked ~ .do, .img8Cont > #toggleMot8:checked ~ .do,
+.img9Cont > #toggleMot9:checked ~ .do, .img10Cont > #toggleMot10:checked ~ .do{
+    opacity: .6;
+    right: 660px;
+}    
+
+.img1Cont > #toggleMot1:checked + .mot, .img2Cont > #toggleMot2:checked + .mot, 
+.img3Cont > #toggleMot3:checked + .mot, .img4Cont > #toggleMot4:checked + .mot, 
+.img5Cont > #toggleMot5:checked + .mot, .img6Cont > #toggleMot6:checked + .mot, 
+.img7Cont > #toggleMot7:checked + .mot, .img8Cont > #toggleMot8:checked + .mot,
+.img9Cont > #toggleMot9:checked + .mot,.img10Cont > #toggleMot10:checked + .mot{
+    opacity: 1;
+}    
+
+.you > h3{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(58deg);
+    transform-origin: 0 0; 
+    text-align: right;
+}    
+
+.do > h3{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(58deg);
+    transform-origin: 0 0; 
+    text-align: right;
+}    
+
+
+.mot > h3{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(58deg);
+    text-align: right;
+    transform-origin: 0 0; 
+}    
+
+.img1Cont, .img2Cont, .img3Cont, .img4Cont, .img5Cont,.img6Cont, .img7Cont, .img8Cont,
+.img9Cont,.img10Cont{
+    transform: translateY(100px);
+    opacity: 0;    
+    transition: opacity .8s , transform .8s;
 }
-
-#slider #button-4:checked~#slides>div>span {
-    left: -7.5%
-}
-
-#slider #button-5:checked~#slides>div>span {
-    left: -12.5%
-}
-
-
-#slider #button-6:checked~#slides>div>span {
-
-    left: -17.5%
-}
-
-#slider #button-7:checked~#slides>div>span {
-    left: -22.5%
-}
-
-#slider #button-8:checked~#slides>div>span {
-    left: -27.5%
-}
-
-#slider #button-9:checked~#slides>div>span {
-    left: -32.5%
-}
-
-#slider #button-10:checked~#slides>div>span {
-    left: -37.5%
-}
-
-#slider #button-11:checked~#slides>div>span {
-    left: -42.5%
-}
-
-#slider #button-12:checked~#slides>div>span {
-    left: -47.5%
-}
-
-#slider #button-13:checked~#slides>div>span {
-    left: -52.5%
-}
-
-#slider #button-14:checked~#slides>div>span {
-    left: -57.5%
-}
-
-#slider #button-15:checked~#slides>div>span {
-    left: -62.5%
-}
-
-#slider #button-16:checked~#slides>div>span {
-    left: -67.5%
-}
-
-#slider #button-17:checked~#slides>div>span {
-    left: -72.5%
-}
-
-#slider #button-18:checked~#slides>div>span {
-    left: -77.5%
-}
-
-#slider #button-19:checked~#slides>div>span {
-    left: -82.5%
-}
-
-#slider #button-20:checked~#slides>div>span {
-    left: -87.5%
+#button-1:checked ~ .content > .img1Cont,
+#button-2:checked ~ .content > .img2Cont, #button-3:checked ~ .content > .img3Cont,
+#button-4:checked ~ .content > .img4Cont, #button-5:checked ~ .content > .img5Cont,
+#button-6:checked ~ .content > .img6Cont, #button-7:checked ~ .content > .img7Cont,
+#button-8:checked ~ .content > .img8Cont, #button-9:checked ~ .content > .img9Cont,
+#button-10:checked ~ .content > .img10Cont{
+    transform: translateY(0px);
+    opacity: 1;
 }
