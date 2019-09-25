@@ -30,7 +30,7 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	font: normal 46px 'Open Sans', cursive;
 	margin: 0;
 }
 
@@ -54,9 +54,10 @@
 .footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
-  font-weight:400;
+    font-weight:400;
 	text-decoration: none;
-	color:  inherit;
+    color:  inherit;
+    font-size: 20px;
 }
 
 .footer-distributed .footer-company-name{
