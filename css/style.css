@@ -203,14 +203,17 @@ body {
                background: url("./image1.png");
      background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center;
+  
 }
 
 #image-2 {
  background: url("./image2.png");
      background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center; 
+ 
+  
 }
 
 #image-3 {
@@ -218,6 +221,8 @@ body {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+   
+  
 }
 
 #image-4 {
@@ -225,6 +230,8 @@ body {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+  
+    
 }
 
 #image-5 {
@@ -232,6 +239,7 @@ body {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+   
 }
 
 #image-6 {
@@ -319,7 +327,7 @@ body {
     background-position: center;
 }
 #image-18 {
-    background: url("./image16.png");
+    background: url("./IMG-2538.JPG");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -772,15 +780,15 @@ body {
    slide is selected */
 
 #slider #button-1:checked~#slides>div>span {
-    left: 8.5%
+    left: 7.5%
 }
 
 #slider #button-2:checked~#slides>div>span {
-    left: 3.5%
+    left: 2.5%
 }
 
 #slider #button-3:checked~#slides>div>span {
-    left: -.5%
+    left: -2.5%
 }
 
 #slider #button-4:checked~#slides>div>span {
