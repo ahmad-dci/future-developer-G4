@@ -435,7 +435,7 @@ border: .5px solid #fff;}
 .img7Cont > #toggleDoing7:checked ~ .you, .img8Cont > #toggleDoing8:checked ~ .you,
 .img9Cont > #toggleDoing9:checked ~ .you,.img10Cont > #toggleDoing10:checked ~ .you{
     opacity: .6;
-    right: 680px;
+    right: 720px;
 }    
 
 .img1Cont > #toggleDoing1:checked + .do, .img2Cont > #toggleDoing2:checked + .do, 
@@ -461,7 +461,7 @@ border: .5px solid #fff;}
 .img7Cont > #toggleMot7:checked ~ .you, .img8Cont > #toggleMot8:checked ~ .you,
 .img9Cont > #toggleMot9:checked ~ .you,.img10Cont > #toggleMot10:checked ~ .you{
     opacity: .6;
-    right: 680px;
+    right: 720px;
 }    
 
 .img1Cont > #toggleMot1:checked ~ .do, .img2Cont > #toggleMot2:checked ~ .do, 
@@ -470,7 +470,7 @@ border: .5px solid #fff;}
 .img7Cont > #toggleMot7:checked ~ .do, .img8Cont > #toggleMot8:checked ~ .do,
 .img9Cont > #toggleMot9:checked ~ .do, .img10Cont > #toggleMot10:checked ~ .do{
     opacity: .6;
-    right: 620px;
+    right: 660px;
 }    
 
 .img1Cont > #toggleMot1:checked + .mot, .img2Cont > #toggleMot2:checked + .mot, 
