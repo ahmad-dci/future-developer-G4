@@ -1,11 +1,11 @@
 Task to Do:
 responsive website
-push everything to master branch
 add content for the images
-footer
-presentation
 
 Done:
+presentation
+push everything to master branch
+footer
 comments in css and html
 Color specification
 nested selection
