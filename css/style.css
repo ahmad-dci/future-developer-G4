@@ -932,11 +932,12 @@ footer {
     font: 1em sans-serif;
     color: black;
     border-radius: 20px;
+    transition: background-color .3s, color .3s;
 }
 
 .calender:hover{
-    background-color: rgba(200, 235, 248, 0.9);
-    transition: background-color .3s;
+    background-color: rgba(0, 134, 158, 0.9);
+    color:white;
 }
 .content {
     position: absolute;
