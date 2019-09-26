@@ -936,7 +936,7 @@ footer {
 
 .calender:hover{
     background-color: rgba(200, 235, 248, 0.9);
-    transition: background-color .5s;
+    transition: background-color .3s;
 }
 .content {
     position: absolute;
@@ -959,7 +959,7 @@ footer {
 }
 
 .content label {
-    transition: .8s;
+    transition: .6s;
     transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530);
     color: white;
     cursor: pointer;
@@ -1441,6 +1441,7 @@ footer {
 
 .footer-distributed h3:hover {
     font-size: 42px;
+    transition: font-size .25s;
 }
 
 
