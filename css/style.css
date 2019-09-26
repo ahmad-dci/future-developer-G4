@@ -244,70 +244,70 @@ footer {
 
 /* The images used in the slides, feel free to change this */
 #image-1 {
-    background: url("../img/image1.png");
+    background: url("../img/image12.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-2 {
-    background: url("../img/image2.png");
+    background: url("../img/image20.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-3 {
-    background: url("../img/image3.png");
+    background: url("../img/image18.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-4 {
-    background: url("../img/image4.png");
+    background: url("../img/image19.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-5 {
-    background: url("../img/image5.png");
+    background: url("../img/image1.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-6 {
-    background: url("../img/image6.png");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#image-7 {
     background: url("../img/image7.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#image-8 {
-    background: url("../img/image8.png");
+#image-7 {
+    background: url("../img/image4.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#image-9 {
+#image-8 {
     background: url("../img/image9.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+#image-9 {
+    background: url("../img/image2.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #image-10 {
-    background: url("../img/image10.png");
+    background: url("../img/image5.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -321,7 +321,7 @@ footer {
 }
 
 #image-12 {
-    background: url("../img/image12.png");
+    background: url("../img/image8.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -350,35 +350,35 @@ footer {
 }
 
 #image-16 {
-    background: url("../img/image16.png");
+    background: url("../img/image6.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-17 {
-    background: url("../img/image17.png");
+    background: url("../img/image3.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-18 {
-    background: url("../img/image18.png");
+    background: url("../img/image16.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-19 {
-    background: url("../img/image19.png");
+    background: url("../img/image10.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #image-20 {
-    background: url("../img/image20.png");
+    background: url("../img/image19.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -949,9 +949,44 @@ footer {
     cursor: pointer;
 }
 
-/* .content label h3 {
-    border: .5px solid #fff;
-} */
+.content label.you p {
+    position: relative;
+    width: 50%;
+    font: 1.5em sans-serif;
+    left: 30%; }
+
+.content label.you h2 {
+    position: relative;
+    width: 50%;
+    font: 3.5em sans-serif;
+    margin: .8em 0 ;
+    left: 30%; }
+
+.content label.do p {
+    position: relative;
+    width: 50%;
+    font: 1.5em sans-serif;
+    left: 40%; }
+
+.content label.do h2 {
+    position: relative;
+    width: 50%;
+    font: 3.5em sans-serif;
+    margin: .8em 0 ;
+    left: 30%; }
+
+.content label.mot p {
+    position: relative;
+    width: 50%;
+    font: 1.5em sans-serif;
+    left: 33%; }
+
+.content label.mot h2 {
+    position: relative;
+    width: 50%;
+    font: 3.5em sans-serif;
+    margin: .8em 0 ;
+    left: 30%; }
 
 .img1Cont>label.you,
 .img2Cont>label.you,
@@ -1018,7 +1053,7 @@ footer {
 .img17Cont>label.mot,
 .img18Cont>label.mot,
 .img19Cont>label.mot,
-.img20Cont>label.you {
+.img20Cont>label.mot {
     padding: 1em;
 }
 
@@ -1026,7 +1061,7 @@ footer {
     position: absolute;
     background-color: rgb(0, 134, 158);
     opacity: 1;
-    right: 200px;
+    right: 205px;
     height: 280px;
     width: 100%;
     transform: translateX(10%);
@@ -1036,7 +1071,7 @@ footer {
 .do {
     position: absolute;
     opacity: .60;
-    right: 140px;
+    right: 145px;
     background-color: rgb(248, 107, 6);
     height: 280px;
     width: 100%;
@@ -1048,11 +1083,39 @@ footer {
     position: absolute;
     background-color: rgb(28, 222, 126);
     opacity: .60;
-    right: 80px;
+    right: 85px;
     height: 280px;
     width: 100%;
     transform: translateX(10%);
     clip-path: polygon(90% 0, 100% 60%, 90% 100%, 0 100%, 0 0);
+}
+
+.you>h3 {
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(65deg) translate(28px,-60px);
+    transform-origin: 0 0;
+    text-align: right;
+}
+
+.do>h3 {
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(65deg) translate(42px,-93px);
+    transform-origin: 0 0;
+    text-align: right;
+}
+
+
+.mot>h3 {
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    transform: rotate(65deg) translate(40px,-85px);
+    text-align: right;
+    transform-origin: 0 0;
 }
 
 .img1Cont>#toggleYou1:checked+.you,
@@ -1074,7 +1137,7 @@ footer {
 .img17Cont>#toggleYou17:checked+.you,
 .img18Cont>#toggleYou18:checked+.you,
 .img19Cont>#toggleYou19:checked+.you,
-.img200Cont>#toggleYou20:checked+.you {
+.img20Cont>#toggleYou20:checked+.you {
     opacity: 1;
 
 }
@@ -1269,34 +1332,6 @@ footer {
     opacity: 1;
 }
 
-.you>h3 {
-    position: absolute;
-    right: 3%;
-    top: 15px;
-    transform: rotate(58deg);
-    transform-origin: 0 0;
-    text-align: right;
-}
-
-.do>h3 {
-    position: absolute;
-    right: 3%;
-    top: 15px;
-    transform: rotate(58deg);
-    transform-origin: 0 0;
-    text-align: right;
-}
-
-
-.mot>h3 {
-    position: absolute;
-    right: 3%;
-    top: 15px;
-    transform: rotate(58deg);
-    text-align: right;
-    transform-origin: 0 0;
-}
-
 .img1Cont,
 .img2Cont,
 .img3Cont,
@@ -1306,7 +1341,17 @@ footer {
 .img7Cont,
 .img8Cont,
 .img9Cont,
-.img10Cont {
+.img10Cont,
+.img11Cont,
+.img12Cont,
+.img13Cont,
+.img14Cont,
+.img15Cont,
+.img16Cont,
+.img17Cont,
+.img18Cont,
+.img19Cont,
+.img20Cont {
     transform: translateY(100px);
     opacity: 0;
     transition: opacity .8s, transform .8s;
@@ -1321,14 +1366,24 @@ footer {
 #button-7:checked~.content>.img7Cont,
 #button-8:checked~.content>.img8Cont,
 #button-9:checked~.content>.img9Cont,
-#button-10:checked~.content>.img10Cont {
+#button-10:checked~.content>.img10Cont,
+#button-11:checked~.content>.img11Cont,
+#button-12:checked~.content>.img12Cont,
+#button-13:checked~.content>.img13Cont,
+#button-14:checked~.content>.img14Cont,
+#button-15:checked~.content>.img15Cont,
+#button-16:checked~.content>.img16Cont,
+#button-17:checked~.content>.img17Cont,
+#button-18:checked~.content>.img18Cont,
+#button-19:checked~.content>.img19Cont,
+#button-20:checked~.content>.img20Cont {
     transform: translateY(0px);
     opacity: 1;
 }
 
 /***********************************************************/
 
-/* ================ Slider ================ */
+/* ================ Footer ================ */
 
 /***********************************************************/
 
